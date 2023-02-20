@@ -1,0 +1,111 @@
+  @font-face {
+    font-family: "lemon-milk";
+    src: url("assets/fonts/lemon_milk/LEMONMILK-Bold.woff") format('woff');
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "lemon-milk";
+    src: url("assets/fonts/lemon_milk/LEMONMILK-BoldItalic.woff") format('woff');
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "lemon-milk";
+    src: url("assets/fonts/lemon_milk/LEMONMILK-Light.woff") format('woff');
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: "lemon-milk";
+    src: url("assets/fonts/lemon_milk/LEMONMILK-LightItalic.woff") format('woff');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "lemon-milk";
+    src: url("assets/fonts/lemon_milk/LEMONMILK-Medium.woff") format('woff');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: "lemon-milk";
+    src: url("assets/fonts/lemon_milk/LEMONMILK-MediumItalic.woff") format('woff');
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: "lemon-milk";
+    src: url("assets/fonts/lemon_milk/LEMONMILK-Regular.woff") format('woff');
+    font-weight: 400;  
+}
+
+@font-face {
+    font-family: "lemon-milk";
+    src: url("assets/fonts/lemon_milk/LEMONMILK-RegularItalic.woff") format('woff');
+    font-weight: 400;
+    font-style: italic;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'lemon-milk';
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    z-index:100;
+}
+
+.sidebar{
+    width:270px;
+    height:100vh;
+    position:absolute;
+    padding: 14px 0px 64px 0px;
+    z-index:800;
+    border-right: 1px solid #f1f1f1;
+    background-color: #FFFFFF;
+    box-shadow: 2px 0px 9px rgba(0, 0, 0, 0.12);
+}
+
+.map{
+    width:100%;
+    height: 100vh;
+}
+
+.sidebar-logo{
+    margin-left:16px;
+    margin-bottom: 20px
+}
+
+.filter-title-main{
+    width:100%;
+    font-weight: 300;
+    color:#16234D;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #F1F1F1;
+    padding: 16px 0 16px 26px;
+}
+
+.dropdown-filter{
+    margin-top:20px;
+    width: 100%;
+    margin-left: 16px;
+}
+
+.dropdown-filter select{
+    width: 90%;
+    margin-top: 5px;
+    height:30px;
+}
+
+
+
+
+

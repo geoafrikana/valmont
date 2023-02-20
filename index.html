@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Val-Mont</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <link rel="stylesheet" href="./index.css">
+    <script src="map.js" defer></script>
+</head>
+
+<body>
+    <!-- regular I1QlbNe6j2f2 and regular italic -->
+    <div id="map" class="container">
+
+        <div class="sidebar">
+            <img class="sidebar-logo" src="./assets/img/logo.svg" alt="val-mont logo">
+
+            <div class="filter-title-main">
+                <h4>FILTER BY</h4>
+            </div>
+
+            <div class="selectors">
+                <div class=" dropdown-filter year-filter">
+
+                    <label for="year-filter">Choose a car:</label>
+                    <br>
+                    
+                    <select name="year-filter dropdown" id="year-filter">
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                    </select>
+                </div>
+
+                <div class="dropdown-filter sector-filter">
+
+                    <label for="sector-filter">Choose a car:</label>
+                    <br>
+                    
+                    <select name="sector-filter dropdown" id="sector-filter">
+                        <option value="Option-1">option-1</option>
+                        <option value="option-2">option-2</option>
+                        <option value="option-3">option-3</option>
+                        <option value="option-4">option-4</option>
+                    </select>
+                </div>
+
+                <div class="contamination">
+                    <p>Non-Contamine</p>
+                    <p>Contamination BC</p>
+                    <p>Contamination AB</p>
+                    <p>En attent des resultats</p>
+
+                </div>
+
+                
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
