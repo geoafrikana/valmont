@@ -6,68 +6,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Val-Mont</title>
+    <script src="map.js" defer></script>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/9bc14e7732.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
         integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
         integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
-    <link rel="stylesheet" href="./index.css">
-    <script src="map.js" defer></script>
+
+    <script src="index.js" defer></script>
 </head>
 
 <body>
     <!-- regular I1QlbNe6j2f2 and regular italic -->
-    <div id="map" class="container">
 
-        <div class="sidebar">
-            <img class="sidebar-logo" src="./assets/img/logo.svg" alt="val-mont logo">
+    <div id="sidebar">
+        <img class="sidebar-logo" src="./assets/img/logo.svg" alt="val-mont logo">
 
-            <div class="filter-title-main">
-                <h4>FILTER BY</h4>
+        <div class="filter-title-main">
+            <h4>FILTER BY</h4>
+        </div>
+
+        <div class="selectors">
+            <div class=" dropdown-filter year-filter">
+
+                <label class="sub-heading"  for="year-filter">Year:</label>
+                <br>
+
+                <select class="select-text" name="year-filter dropdown" id="year-filter">
+                    <option class="select-text" value="1999">1999</option>
+                    <option class="select-text" value="2000">2000</option>
+                    <option class="select-text" value="2001">2001</option>
+                    <option class="select-text" value="2002">2002</option>
+                </select>
             </div>
 
-            <div class="selectors">
-                <div class=" dropdown-filter year-filter">
+            <div class="dropdown-filter sector-filter">
 
-                    <label for="year-filter">Choose a car:</label>
-                    <br>
-                    
-                    <select name="year-filter dropdown" id="year-filter">
-                        <option value="1999">1999</option>
-                        <option value="2000">2000</option>
-                        <option value="2001">2001</option>
-                        <option value="2002">2002</option>
-                    </select>
+                <label class="sub-heading" for="sector-filter">Sectors:</label>
+                <br>
+
+                <select class="select-text" name="sector-filter dropdown" id="sector-filter">
+                    <option class="select-text" value="Option-1">Option-1</option>
+                    <option class="select-text" value="option-2">option-2</option>
+                    <option class="select-text" value="option-3">option-3</option>
+                    <option class="select-text" value="option-4">option-4</option>
+                </select>
+            </div>
+
+            <div class="contamination">
+                <h3 class="sub-heading">DEGREE OF CONTAMINATION</h3>
+
+                <p><i class="fa-xl fa-green fa1 fa-solid fa-circle-check"></i><span>Non-Contamine</span></p>
+                <p><i class="fa-xl fa-yellow fa2 fa-solid fa-circle-check"></i><span>Contamination BC</span></p>
+                <p><i class="fa-xl fa-red fa-solid fa3 fa-circle"></i><span>Contamination AB</span></p>
+                <p><i class="fa-xl fa-blue fa-solid fa4 fa-circle"></i><span>En attent des resultats</span></p>
+            </div>
+
+            <div class="cadastre">
+                <h3 class="sub-heading">NUMERO DE CADASTRE</h3>
+
+                <div class="input">
+                    <input type="text">
+                    <i class="fa-xl fa-solid fa-magnifying-glass"></i>
                 </div>
-
-                <div class="dropdown-filter sector-filter">
-
-                    <label for="sector-filter">Choose a car:</label>
-                    <br>
-                    
-                    <select name="sector-filter dropdown" id="sector-filter">
-                        <option value="Option-1">option-1</option>
-                        <option value="option-2">option-2</option>
-                        <option value="option-3">option-3</option>
-                        <option value="option-4">option-4</option>
-                    </select>
-                </div>
-
-                <div class="contamination">
-                    <p>Non-Contamine</p>
-                    <p>Contamination BC</p>
-                    <p>Contamination AB</p>
-                    <p>En attent des resultats</p>
-
-                </div>
-
-                
 
             </div>
+
+            <div class=" dropdown-filter year-filter">
+
+                <label id="archived-data" for="year-filter">ARCHIVED DATA</label>
+                <br>
+
+                <select class="select-text" name="year-filter dropdown" id="year-filter">
+                    <option class="select-text" value="1999" selected disabled hidden>SELECT</option>
+                    <option class="select-text" value="1999">Archived</option>
+                    <option class="select-text" value="2000">Non-Archived</option>
+                </select>
+            </div>
+
         </div>
 
     </div>
+    <button id="toggle-button">&lt</button>
+    <div id="map"> </div>
 
-    </div>
 
 </body>
 
