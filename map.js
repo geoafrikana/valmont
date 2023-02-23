@@ -6,17 +6,19 @@ var OpenStreetMap  = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png
 
 const WmsUrl = 'https://val.aponiawebsolutions.ca/geoserver/valmont/wms'
 
-var DEM = L.tileLayer.wms(WmsUrl, {
+var topographic = L.tileLayer.wms(WmsUrl, {
     layers: 'color_3857',
     format: 'image/png',
     styles: 'color_style',
+    opacity: 0.5,
     attribution: "Aponia Web Solutions"
-});
+}).addTo(map);
 
 var DEMBlackAndWhite = L.tileLayer.wms(WmsUrl, {
     layers: 'dem_3857',
     format: 'image/png',
     styles: 'raster',
+    opacity: 0.5,
     attribution: "Aponia Web Solutions"
 })
 
@@ -24,24 +26,26 @@ var DEMColor = L.tileLayer.wms(WmsUrl, {
     layers: 'dem_3857',
     format: 'image/png',
     styles: 'dem_topo_style',
+    opacity: 0.5,
     attribution: "Aponia Web Solutions"
 })
 
 var baseLayers = {
-    OpenStreetMap,
-    'DEM Colored': DEMColor,
-    'DEM Black and White': DEMBlackAndWhite
-
+    OpenStreetMap
 };
 
-// var pointLayer = L.Geoserver.wms(WmsUrl,{
-//     layers: 'valmont:dummy_places',
-// }).addTo(map)
+var overlayLayers = {
+    'DEM Colored': DEMColor,
+    'DEM Black and White': DEMBlackAndWhite,
+    'Topographic': topographic
+}
 
-// var overlayLayers = {
-//     'Point': pointLayer
-// }
+L.control.layers(baseLayers, overlayLayers).addTo(map);
 
-L.control.layers(baseLayers).addTo(map);
 
+L.control
+    .opacity(overlayLayers, {
+        label: 'Layers Opacity',
+    })
+    .addTo(map);
 
