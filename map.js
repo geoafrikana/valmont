@@ -1,9 +1,40 @@
-var map = L.map('map', {zoomControl:false}).setView([51.505, -0.09], 13);
+var map = L.map('map', {zoomControl:false}).setView([45.66285042, -75.64598285], 13);
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+var OpenStreetMap  = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// L.marker([51.5, -0.09]).addTo(map)
-//     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-//     .openPopup();
+const WmsUrl = 'https://val.aponiawebsolutions.ca/geoserver/valmont/wms'
+
+var DEM = L.tileLayer.wms(WmsUrl, {
+    layers: 'color_3857',
+    format: 'image/png',
+    styles: 'color_style',
+    attribution: "Aponia Web Solutions"
+});
+
+var DEMBlackAndWhite = L.tileLayer.wms(WmsUrl, {
+    layers: 'dem_3857',
+    format: 'image/png',
+    styles: 'raster',
+    attribution: "Aponia Web Solutions"
+})
+
+var DEMColor = L.tileLayer.wms(WmsUrl, {
+    layers: 'dem_3857',
+    format: 'image/png',
+    styles: 'dem_topo_style',
+    attribution: "Aponia Web Solutions"
+})
+
+var baseLayers = {
+    OpenStreetMap,
+    'DEM Colored': DEMColor,
+    'DEM Black and White': DEMBlackAndWhite
+
+};
+
+L.control.layers(baseLayers).addTo(map);
+
+
+
