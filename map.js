@@ -34,7 +34,14 @@ var baseLayers = {
 
 };
 
-L.control.layers(baseLayers).addTo(map);
+// var pointLayer = L.Geoserver.wms(WmsUrl,{
+//     layers: 'valmont:dummy_places',
+// }).addTo(map)
 
+// var overlayLayers = {
+//     'Point': pointLayer
+// }
+
+L.control.layers(baseLayers).addTo(map);
 
 
