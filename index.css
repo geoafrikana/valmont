@@ -95,7 +95,7 @@ transform: translateX(-100%)
 }
 
 #map{
-background-color: red;
+background-color: #e8e8e8;
 height:100vh;
 z-index: 0;
 }
