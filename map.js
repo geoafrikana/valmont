@@ -14,7 +14,7 @@ var topographic = L.tileLayer.wms(WmsUrl, {
     opacity: 0.5,
     tiled: true,
     attribution: "Aponia Web Solutions"
-}) //.addTo(map);
+}).addTo(map);
 
 var DEMBlackAndWhite = L.tileLayer.wms(WmsUrl, {
     layers: 'dem_3857',
@@ -92,5 +92,5 @@ L.control
               layer.bindPopup(`ID: ${feature.properties.fid}`)
             }
           }).addTo(map);
-        map.fitBounds(selectedArea.getBounds());
+        // map.fitBounds(selectedArea.getBounds());
       }
