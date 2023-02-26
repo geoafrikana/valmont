@@ -53,44 +53,5 @@ L.control.layers(baseLayers, overlayLayers).addTo(map);
 
 L.control
     .opacity(overlayLayers, {
-        label: 'Layers Opacity',
+        collapsed: true
     }).addTo(map);
-
-
-    var getBBox = ()=>{
-        var bounds = map.getBounds();
-        bounds = [bounds._southWest.lng, bounds._southWest.lat, bounds._northEast.lng, bounds._northEast.lat].join(',')
-        return bounds
-    }
-
-    // var bounds = 
-    $.ajax(WfsUrl,{
-        type: 'GET',
-        data: {
-          service: 'WFS',
-          version: '1.1.0',
-          request: 'GetFeature',
-          typename: 'valmont:dummy_places',
-          srsname: 'EPSG:4326',
-          outputFormat: 'text/javascript',
-        //   bbox:  bounds
-          },
-        dataType: 'jsonp',
-        jsonpCallback:'callback:handleJson',
-        jsonp:'format_options'
-       });
-        //Geojson style file
-        var myStyle = {
-          'color': 'red'
-        }
-      // the ajax callback function
-      function handleJson(data) {
-        console.log(data.features.length)
-          selectedArea = L.geoJson(data, {
-            style: myStyle,
-            onEachFeature: function(feature, layer) {
-              layer.bindPopup(`ID: ${feature.properties.fid}`)
-            }
-          }).addTo(map);
-        // map.fitBounds(selectedArea.getBounds());
-      }

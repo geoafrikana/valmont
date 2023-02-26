@@ -1,0 +1,5015 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "valmont.0",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.37325106,
+                    45.68866302
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "D875",
+                "subtitle": "Peltigera scabrosa Th. Fr.",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Extirpation of Matter from Left Thorax Muscle, Percutaneous Approach",
+                "year": "2005",
+                "lasteditdate": "6/16/2022",
+                "lasteditperson": "Grace",
+                "area": "Sindangsari",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.66085263,
+                    45.82778034
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "D694",
+                "subtitle": "Aspicilia elevata (Lynge) J.W. Thomson",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Fragmentation in Right Upper Lobe Bronchus, Via Natural or Artificial Opening",
+                "year": "2007",
+                "lasteditdate": "8/20/2022",
+                "lasteditperson": "Yolande",
+                "area": "Tangqian",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.3545189,
+                    45.34505427
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "A080",
+                "subtitle": "Crataegus rigens Beadle",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Supplement Left Radial Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",
+                "year": "1992",
+                "lasteditdate": "07/09/2022",
+                "lasteditperson": "Wesley",
+                "area": "Bromma",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.6264115,
+                    45.90457217
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U579",
+                "subtitle": "Luzula piperi (Coville) M.E. Jones",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Fusion of Right Finger Phalangeal Joint, Percutaneous Endoscopic Approach",
+                "year": "2009",
+                "lasteditdate": "09/07/2022",
+                "lasteditperson": "Basil",
+                "area": "Bibirevo",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.61100868,
+                    45.42696548
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "J467",
+                "subtitle": "Lobelia gaudichaudii A. DC.",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Supplement Lower Jaw with Autologous Tissue Substitute, Percutaneous Endoscopic Approach",
+                "year": "2000",
+                "lasteditdate": "03/08/2022",
+                "lasteditperson": "Yvon",
+                "area": "Trelleborg",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.29198903,
+                    45.78213804
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "J586",
+                "subtitle": "Solenospora crenata (Herre) Zahlbr.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Drainage of Bilateral Ureters with Drainage Device, Via Natural or Artificial Opening Endoscopic",
+                "year": "2006",
+                "lasteditdate": "10/23/2022",
+                "lasteditperson": "Karel",
+                "area": "Las Tunas",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.71513717,
+                    45.68351264
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X540",
+                "subtitle": "Hillia Jacq.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Excision of Left Acetabulum, Percutaneous Approach, Diagnostic",
+                "year": "2000",
+                "lasteditdate": "05/05/2022",
+                "lasteditperson": "Ivett",
+                "area": "Ratoath",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.3970301,
+                    45.76870347
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L380",
+                "subtitle": "Boykinia richardsonii (Hook.) Rothr.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Reposition Left Metacarpocarpal Joint with External Fixation Device, Open Approach",
+                "year": "2004",
+                "lasteditdate": "08/10/2022",
+                "lasteditperson": "Hy",
+                "area": "Palayan City",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.54394499,
+                    45.83208386
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "P051",
+                "subtitle": "Carex digitalis Willd. var. floridana (L.H. Bailey) Naczi & Bryson",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Drainage of Right Lower Leg with Drainage Device, Open Approach",
+                "year": "2004",
+                "lasteditdate": "12/29/2022",
+                "lasteditperson": "Karly",
+                "area": "Almoأ­nhas Velhas",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.9",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.75328845,
+                    45.64490821
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U208",
+                "subtitle": "Eriogonum gypsophilum Wooton & Standl.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Supplement Left Lesser Saphenous Vein with Nonautologous Tissue Substitute, Percutaneous Approach",
+                "year": "2004",
+                "lasteditdate": "11/25/2022",
+                "lasteditperson": "Ilyse",
+                "area": "Bangeran",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.76676109,
+                    45.41764749
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "S181",
+                "subtitle": "Lyonia Nutt.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Supplement Left Patella with Autologous Tissue Substitute, Percutaneous Approach",
+                "year": "2011",
+                "lasteditdate": "2/22/2022",
+                "lasteditperson": "Dane",
+                "area": "Storvreta",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.42684198,
+                    45.43301674
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "C039",
+                "subtitle": "Euphorbia exstipulata Engelm.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Revision of Nonautologous Tissue Substitute in Pancreatic Duct, External Approach",
+                "year": "2006",
+                "lasteditdate": "02/02/2023",
+                "lasteditperson": "Tracie",
+                "area": "Sobang",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.12",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.56909287,
+                    45.9449252
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L032",
+                "subtitle": "Agrimonia parviflora Aiton",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Removal of Drainage Device from Left Ankle Joint, Percutaneous Approach",
+                "year": "1986",
+                "lasteditdate": "03/04/2022",
+                "lasteditperson": "Gaby",
+                "area": "Yanmenkou",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.13",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.54670397,
+                    45.47014723
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "V950",
+                "subtitle": "Cestrum nocturnum L.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Revision of Drainage Device in Spleen, Percutaneous Endoscopic Approach",
+                "year": "1993",
+                "lasteditdate": "1/28/2023",
+                "lasteditperson": "Andonis",
+                "area": "Saint-Constant",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.14",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.60156597,
+                    45.84994747
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U388",
+                "subtitle": "Garrya wrightii Torr.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Supplement Left Scapula with Synthetic Substitute, Open Approach",
+                "year": "2011",
+                "lasteditdate": "1/27/2022",
+                "lasteditperson": "Kimbell",
+                "area": "Novaya Igirma",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.96852281,
+                    45.88974762
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "G007",
+                "subtitle": "Brachythecium acuminatum (Hedw.) Austin",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Beam Radiation of Ureter using Neutrons",
+                "year": "1989",
+                "lasteditdate": "5/13/2022",
+                "lasteditperson": "Rowen",
+                "area": "ؤگؤƒجپk Song",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.16",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.55750472,
+                    45.40789958
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X206",
+                "subtitle": "Eriogonum cithariforme S. Watson var. cithariforme",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Measurement of Urinary Contractility, Via Natural or Artificial Opening",
+                "year": "2010",
+                "lasteditdate": "08/07/2022",
+                "lasteditperson": "Lelia",
+                "area": "Ganjun",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.17",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.27372773,
+                    45.4774777
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "O685",
+                "subtitle": "Bolandra A. Gray",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Removal of Synthetic Substitute from Coccyx, Percutaneous Endoscopic Approach",
+                "year": "2012",
+                "lasteditdate": "11/25/2022",
+                "lasteditperson": "Gray",
+                "area": "Lubrza",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.18",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.62198815,
+                    45.40859374
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "J292",
+                "subtitle": "Eriogonum concinnum Reveal",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Release Esophagus, Open Approach",
+                "year": "2011",
+                "lasteditdate": "06/02/2022",
+                "lasteditperson": "Janina",
+                "area": "Tlogotunggal",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.19",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.91295652,
+                    45.66642812
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Y643",
+                "subtitle": "Cryptostegia grandiflora (Roxb. ex R. Br.) R. Br.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Removal of Monitoring Device from Left Lung, Via Natural or Artificial Opening Endoscopic",
+                "year": "1987",
+                "lasteditdate": "1/29/2022",
+                "lasteditperson": "Fanchon",
+                "area": "Wulingyuan",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.20",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.71578716,
+                    45.57789479
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Y216",
+                "subtitle": "Niebla Rundel & Bowler",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Revision of Intraluminal Device in Hepatobiliary Duct, Percutaneous Approach",
+                "year": "2002",
+                "lasteditdate": "10/10/2022",
+                "lasteditperson": "Bel",
+                "area": "Dobropillya",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.21",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.937547,
+                    45.65975659
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "C983",
+                "subtitle": "Hygroamblystegium tenax (Hedw.) Jenn. var. spinifolium (Schimp.) Jenn.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Drainage of Left Upper Lung Lobe, Via Natural or Artificial Opening Endoscopic",
+                "year": "2012",
+                "lasteditdate": "1/23/2023",
+                "lasteditperson": "Crin",
+                "area": "Zhaocun",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.22",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.77148075,
+                    45.93028843
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "T525",
+                "subtitle": "Rosa villosa L.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Occlusion of Right Femoral Artery, Percutaneous Approach",
+                "year": "2008",
+                "lasteditdate": "1/16/2023",
+                "lasteditperson": "Lauraine",
+                "area": "Ithari",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.23",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.57993795,
+                    45.92207919
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "W323",
+                "subtitle": "Ricinus communis L.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Repair Nasal Bone, Open Approach",
+                "year": "2007",
+                "lasteditdate": "01/06/2022",
+                "lasteditperson": "Bertina",
+                "area": "ل¸¨awf",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.33249665,
+                    45.35105666
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Q445",
+                "subtitle": "Stipa caucasica Schmalh.",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Inspection of Left Elbow Joint, Percutaneous Endoscopic Approach",
+                "year": "2005",
+                "lasteditdate": "1/21/2022",
+                "lasteditperson": "Harlan",
+                "area": "San Josأ©",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.25",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.84485202,
+                    45.94783577
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "A144",
+                "subtitle": "Coenogonium Ehrenb.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Replacement of Left Common Iliac Artery with Nonautologous Tissue Substitute, Open Approach",
+                "year": "2009",
+                "lasteditdate": "11/14/2022",
+                "lasteditperson": "Candice",
+                "area": "San Antonio",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.26",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.33622463,
+                    45.4023301
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "S815",
+                "subtitle": "Cirsium occidentale (Nutt.) Jeps. var. candidissimum (Greene) J.F. Macbr.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Revision of Nonautologous Tissue Substitute in Right Elbow Joint, Percutaneous Endoscopic Approach",
+                "year": "2006",
+                "lasteditdate": "03/12/2022",
+                "lasteditperson": "Cookie",
+                "area": "San Marcos",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.27",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.67045569,
+                    45.75990822
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "S948",
+                "subtitle": "Desmanthus tatuhyensis Hoehne",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Dilation of Left External Iliac Artery, Bifurcation, with Four or More Drug-eluting Intraluminal Devices, Open Approach",
+                "year": "1991",
+                "lasteditdate": "09/08/2022",
+                "lasteditperson": "Barnebas",
+                "area": "Jorok Dalam",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.28",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.67017452,
+                    45.55573298
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "V911",
+                "subtitle": "Crepis bakeri Greene",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Lower Bones, Supplement",
+                "year": "2007",
+                "lasteditdate": "02/05/2022",
+                "lasteditperson": "Amara",
+                "area": "Crateأ؛s",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.29",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.87275836,
+                    45.93891552
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "K820",
+                "subtitle": "Saxifraga occidentalis S. Watson",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Drainage of Left Tympanic Membrane, Open Approach",
+                "year": "1990",
+                "lasteditdate": "10/03/2022",
+                "lasteditperson": "Ash",
+                "area": "Kineshma",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.30",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.2948844,
+                    45.35984792
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "N707",
+                "subtitle": "Setaria scheelei (Steud.) Hitchc.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Dilation of Left Internal Mammary Artery, Bifurcation, with Three Drug-eluting Intraluminal Devices, Percutaneous Approach",
+                "year": "2002",
+                "lasteditdate": "07/08/2022",
+                "lasteditperson": "Andrew",
+                "area": "Lolodorf",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.31",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.88879777,
+                    45.71914219
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U176",
+                "subtitle": "Flourensia cernua DC.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Bypass Left Subclavian Artery to Left Upper Arm Artery with Nonautologous Tissue Substitute, Open Approach",
+                "year": "1997",
+                "lasteditdate": "10/01/2022",
+                "lasteditperson": "Candice",
+                "area": "Mahؤپbؤپd",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.32",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.31350357,
+                    45.84519344
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U092",
+                "subtitle": "Eurybia mirabilis (Torr. & A. Gray) G.L. Nesom",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Drainage of Left Sphenoid Bone with Drainage Device, Percutaneous Approach",
+                "year": "2002",
+                "lasteditdate": "1/27/2023",
+                "lasteditperson": "Rafaellle",
+                "area": "Medvedovskaya",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.33",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.97514889,
+                    45.41265006
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L476",
+                "subtitle": "Pyrenula Ach.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Supplement Left Common Iliac Vein with Synthetic Substitute, Percutaneous Endoscopic Approach",
+                "year": "2006",
+                "lasteditdate": "1/24/2022",
+                "lasteditperson": "Collin",
+                "area": "Ciguha Tengah",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.34",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.74903532,
+                    45.5603054
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "C853",
+                "subtitle": "Cerastium arcticum Lange",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Revision of Nonautologous Tissue Substitute in Left Lower Femur, Percutaneous Approach",
+                "year": "2004",
+                "lasteditdate": "02/12/2022",
+                "lasteditperson": "Bonnie",
+                "area": "Mount Darwin",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.35",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.89360483,
+                    45.86177798
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Z717",
+                "subtitle": "Ceanothus incanus Torr. & A. Gray",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Supplement Cul-de-sac with Synthetic Substitute, Via Natural or Artificial Opening Endoscopic",
+                "year": "2001",
+                "lasteditdate": "9/14/2022",
+                "lasteditperson": "Walliw",
+                "area": "Huanshan",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.36",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.32222491,
+                    45.53395795
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "O047",
+                "subtitle": "Fayodia Kuhner",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Revision of Nonautologous Tissue Substitute in Nose, Percutaneous Approach",
+                "year": "1960",
+                "lasteditdate": "9/19/2022",
+                "lasteditperson": "Dexter",
+                "area": "Masaran",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.37",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.59381789,
+                    45.53557623
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "E414",
+                "subtitle": "Dirinaria confluens (Fr.) D.D. Awasthi",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Destruction of Clitoris, Open Approach",
+                "year": "2012",
+                "lasteditdate": "12/08/2022",
+                "lasteditperson": "Lani",
+                "area": "Si Wilai",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.38",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.45291498,
+                    45.56538638
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "W569",
+                "subtitle": "Phacelia arizonica A. Gray",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Drainage of Left Kidney Pelvis, Via Natural or Artificial Opening, Diagnostic",
+                "year": "2000",
+                "lasteditdate": "12/28/2022",
+                "lasteditperson": "Rudd",
+                "area": "Haoyi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.39",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.76496226,
+                    45.78114826
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "T647",
+                "subtitle": "Quercus أ—deamii Trel.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Restriction of Lingula Bronchus, Open Approach",
+                "year": "2010",
+                "lasteditdate": "4/28/2022",
+                "lasteditperson": "Titus",
+                "area": "Sosnytsya",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.40",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.4588153,
+                    45.53736585
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X383",
+                "subtitle": "Licaria triandra (Sw.) Kosterm.",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Excision of Right Lacrimal Bone, Percutaneous Approach, Diagnostic",
+                "year": "1995",
+                "lasteditdate": "7/31/2022",
+                "lasteditperson": "Noach",
+                "area": "Kuala Lumpur",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.41",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.39824894,
+                    45.60580264
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "H700",
+                "subtitle": "Carex glareosa Schkuhr ex Wahlenb. ssp. pribylovensis (Macoun) Halliday & Chater",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Drainage of Gastric Artery with Drainage Device, Percutaneous Approach",
+                "year": "2012",
+                "lasteditdate": "6/14/2022",
+                "lasteditperson": "Linzy",
+                "area": "Jintang",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.42",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.8120577,
+                    45.54355973
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "D141",
+                "subtitle": "Aspicilia contigua (Lynge) J.W. Thomson",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Destruction of Facial Muscle, Percutaneous Endoscopic Approach",
+                "year": "2004",
+                "lasteditdate": "1/26/2023",
+                "lasteditperson": "Nolly",
+                "area": "High River",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.43",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.39731263,
+                    45.8667512
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "H914",
+                "subtitle": "Yucca harrimaniae Trel.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Excision of Right Ethmoid Sinus, Percutaneous Endoscopic Approach",
+                "year": "1985",
+                "lasteditdate": "01/04/2023",
+                "lasteditperson": "Vaughan",
+                "area": "Xinâ€™an",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.44",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.43833658,
+                    45.41153995
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "M578",
+                "subtitle": "Phaeospora Hepp ex Stein",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Insertion of Infusion Device into Gastrointestinal Tract, Percutaneous Approach",
+                "year": "2010",
+                "lasteditdate": "08/01/2022",
+                "lasteditperson": "Randi",
+                "area": "Pingpo",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.45",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.92245913,
+                    45.62691608
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "I795",
+                "subtitle": "Bahia Lag.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Supplement Neck with Autologous Tissue Substitute, Percutaneous Endoscopic Approach",
+                "year": "2011",
+                "lasteditdate": "10/15/2022",
+                "lasteditperson": "Reiko",
+                "area": "Tadine",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.46",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.30379605,
+                    45.47760729
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "K597",
+                "subtitle": "Potamogeton أ—scoliophyllus Hagstr.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Repair Thyroid Gland Isthmus, Open Approach",
+                "year": "2011",
+                "lasteditdate": "08/07/2022",
+                "lasteditperson": "Sallie",
+                "area": "Oyo",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.47",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.81871392,
+                    45.67369568
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "M023",
+                "subtitle": "Potentilla reptans L.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Occlusion of Right Ureter with Extraluminal Device, Open Approach",
+                "year": "2002",
+                "lasteditdate": "10/11/2022",
+                "lasteditperson": "Briana",
+                "area": "ذ¢ذµذ°ر€ر†ذµ",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.48",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.85196364,
+                    45.6087102
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "R470",
+                "subtitle": "Geranium potentilloides L'Hأ©r. ex DC.",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Excision of Lower Esophagus, Via Natural or Artificial Opening Endoscopic, Diagnostic",
+                "year": "1993",
+                "lasteditdate": "08/03/2022",
+                "lasteditperson": "Ruddy",
+                "area": "Oke Iho",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.49",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.89571427,
+                    45.82571982
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "O880",
+                "subtitle": "Sedum pulchellum Michx.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Insertion of Infusion Device into Right Common Carotid Artery, Open Approach",
+                "year": "2008",
+                "lasteditdate": "05/02/2022",
+                "lasteditperson": "Jeri",
+                "area": "Murأ§a",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.50",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.56541992,
+                    45.40664401
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "K375",
+                "subtitle": "Falcaria Fabr.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Supplement Lumbar Vertebral Joint with Autologous Tissue Substitute, Open Approach",
+                "year": "2007",
+                "lasteditdate": "01/07/2023",
+                "lasteditperson": "Layton",
+                "area": "Minglanilla",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.51",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.39938236,
+                    45.89753071
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "H579",
+                "subtitle": "Prunus fasciculata (Torr.) A. Gray",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Change Intermittent Pressure Device on Left Finger",
+                "year": "2000",
+                "lasteditdate": "10/07/2022",
+                "lasteditperson": "Fan",
+                "area": "Qiandian",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.52",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.31468469,
+                    45.42220214
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U470",
+                "subtitle": "Chaerophyllum tainturieri Hook.",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Stereotactic Particulate Radiosurgery of Stomach",
+                "year": "2011",
+                "lasteditdate": "10/30/2022",
+                "lasteditperson": "Tabitha",
+                "area": "Collingwood",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.53",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.28403039,
+                    45.59826899
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "A292",
+                "subtitle": "Crossosoma Nutt.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Fusion of Right Metacarpophalangeal Joint with External Fixation Device, Percutaneous Endoscopic Approach",
+                "year": "1984",
+                "lasteditdate": "08/07/2022",
+                "lasteditperson": "Matty",
+                "area": "Rybarzowice",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.54",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.39898385,
+                    45.40198084
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "E351",
+                "subtitle": "Cladonia cervicornis (Ach.) Flotow",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Repair Ileocecal Valve, Via Natural or Artificial Opening",
+                "year": "1984",
+                "lasteditdate": "03/08/2022",
+                "lasteditperson": "Melisa",
+                "area": "Raleigh",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.55",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.64093487,
+                    45.95672544
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Z165",
+                "subtitle": "Listera auriculata Wiegand",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Supplement Mitral Valve created from Left Atrioventricular Valve with Zooplastic Tissue, Percutaneous Approach",
+                "year": "1996",
+                "lasteditdate": "01/12/2022",
+                "lasteditperson": "Joachim",
+                "area": "Birayang",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.56",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.94852503,
+                    45.80470502
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X479",
+                "subtitle": "Scleria eggersiana Boeckeler",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Reposition Right Axillary Vein, Percutaneous Approach",
+                "year": "2003",
+                "lasteditdate": "10/29/2022",
+                "lasteditperson": "Ellissa",
+                "area": "Lamadelaine",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.57",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.94325909,
+                    45.75681314
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Y905",
+                "subtitle": "Murdannia spirata (L.) Bruckner",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Occlusion of Right Thyroid Artery with Intraluminal Device, Open Approach",
+                "year": "1986",
+                "lasteditdate": "10/03/2022",
+                "lasteditperson": "Eunice",
+                "area": "Mamburao",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.58",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.72766751,
+                    45.35211879
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Q770",
+                "subtitle": "Schradera exotica (J.F. Gmel.) Standl.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Supplement Right Lacrimal Duct with Autologous Tissue Substitute, Via Natural or Artificial Opening",
+                "year": "1992",
+                "lasteditdate": "09/02/2022",
+                "lasteditperson": "Orv",
+                "area": "Heret",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.59",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.34803769,
+                    45.69068567
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "G118",
+                "subtitle": "Carex amplifolia Boott",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Transfusion of Autologous Whole Blood into Central Artery, Open Approach",
+                "year": "2007",
+                "lasteditdate": "4/29/2022",
+                "lasteditperson": "Reginald",
+                "area": "Quibdأ³",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.60",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.96477827,
+                    45.37204692
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U342",
+                "subtitle": "Pitcairnia angustifolia Aiton var. angustifolia ",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Dilation of Right Lower Lobe Bronchus, Percutaneous Approach",
+                "year": "1979",
+                "lasteditdate": "6/29/2022",
+                "lasteditperson": "Donnell",
+                "area": "Asbest",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.61",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.28449895,
+                    45.48322545
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Z608",
+                "subtitle": "Sagittaria guayanensis Kunth",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Computerized Tomography (CT Scan) of Right Tracheobronchial Tree using High Osmolar Contrast",
+                "year": "1993",
+                "lasteditdate": "4/28/2022",
+                "lasteditperson": "Esme",
+                "area": "Dungkek Laok",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.62",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.91569258,
+                    45.44380707
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Z418",
+                "subtitle": "Bidens sandvicensis Less.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Transfer Ulnar Nerve to Radial Nerve, Percutaneous Endoscopic Approach",
+                "year": "2001",
+                "lasteditdate": "12/15/2022",
+                "lasteditperson": "Kerri",
+                "area": "Medeiros Neto",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.63",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.85560239,
+                    45.79146196
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "P946",
+                "subtitle": "Miconia serrulata (DC.) Naud.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Dilation of Right Internal Carotid Artery, Bifurcation, with Two Drug-eluting Intraluminal Devices, Percutaneous Endoscopic Approach",
+                "year": "1984",
+                "lasteditdate": "02/09/2022",
+                "lasteditperson": "Donia",
+                "area": "Capitأ،n Sarmiento",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.64",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.53582817,
+                    45.86776555
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "E004",
+                "subtitle": "Coprosma granadensis (L. f.) Heads",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Revision of Autologous Tissue Substitute in Upper Intestinal Tract, Open Approach",
+                "year": "2005",
+                "lasteditdate": "04/02/2022",
+                "lasteditperson": "Dianne",
+                "area": "Paranapanema",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.65",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.28183464,
+                    45.81983553
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Q822",
+                "subtitle": "Cyrtandra J.R. Forst. & G. Forst.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Drainage of Right Common Iliac Vein, Percutaneous Endoscopic Approach, Diagnostic",
+                "year": "1971",
+                "lasteditdate": "1/19/2022",
+                "lasteditperson": "Burnaby",
+                "area": "Amboasary",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.66",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.34772619,
+                    45.46228507
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "C936",
+                "subtitle": "Oligomeris Camb.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Extirpation of Matter from Pancreatic Duct, Via Natural or Artificial Opening",
+                "year": "1997",
+                "lasteditdate": "6/19/2022",
+                "lasteditperson": "Aggy",
+                "area": "Sأ£o Mamede de Infesta",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.67",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.72878431,
+                    45.47142039
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L919",
+                "subtitle": "Carbonea atronivea (Arnold) Hertel",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Drainage of Stomach, Open Approach",
+                "year": "2004",
+                "lasteditdate": "04/08/2022",
+                "lasteditperson": "Brewster",
+                "area": "Qorveh",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.68",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.9564679,
+                    45.68354579
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X772",
+                "subtitle": "Penstemon auriberbis Pennell",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Insertion of Internal Fixation Device into Right Occipital Bone, Percutaneous Approach",
+                "year": "2012",
+                "lasteditdate": "1/25/2023",
+                "lasteditperson": "Bridie",
+                "area": "Cidahu",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.69",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.8676569,
+                    45.70871474
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Q492",
+                "subtitle": "Hibiscus brackenridgei A. Gray ssp. molokaianus (Rock ex Caum) F.D. Wilson",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Dilation of Right Eustachian Tube with Intraluminal Device, Open Approach",
+                "year": "2007",
+                "lasteditdate": "1/22/2022",
+                "lasteditperson": "Ileana",
+                "area": "Lyon",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.70",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.71668036,
+                    45.68067298
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "R549",
+                "subtitle": "Euonymus hamiltonianus Wall.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Repair Splenic Vein, Percutaneous Endoscopic Approach",
+                "year": "1985",
+                "lasteditdate": "2/16/2023",
+                "lasteditperson": "Heindrick",
+                "area": "Lakki Marwat",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.71",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.81891595,
+                    45.53812323
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "A890",
+                "subtitle": "Prosopis juliflora (Sw.) DC.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Fluoroscopy of Lumbar Disc(s) using High Osmolar Contrast",
+                "year": "1992",
+                "lasteditdate": "1/17/2023",
+                "lasteditperson": "Emmeline",
+                "area": "Guanchi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.72",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.63326637,
+                    45.70035408
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "A060",
+                "subtitle": "Pectocarya linearis (Ruiz & Pav.) DC.",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Excision of Thoracic Nerve, Percutaneous Endoscopic Approach, Diagnostic",
+                "year": "1999",
+                "lasteditdate": "12/08/2022",
+                "lasteditperson": "Tobiah",
+                "area": "Kristinestad",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.73",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.82376889,
+                    45.57722044
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "F580",
+                "subtitle": "Echites umbellatus Jacq.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Revision of Internal Fixation Device in Left Toe Phalanx, External Approach",
+                "year": "2010",
+                "lasteditdate": "8/20/2022",
+                "lasteditperson": "Lonnard",
+                "area": "Ronneby",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.74",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.68163387,
+                    45.55979115
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "D934",
+                "subtitle": "Acalypha arvensis Poepp.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Insertion of Hearing Device into Right Inner Ear, Open Approach",
+                "year": "2007",
+                "lasteditdate": "6/16/2022",
+                "lasteditperson": "Darcy",
+                "area": "Kertosari",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.75",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.66019522,
+                    45.91322025
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "N221",
+                "subtitle": "Trembleya DC.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Drainage of Left Middle Ear, Open Approach",
+                "year": "1991",
+                "lasteditdate": "2/18/2023",
+                "lasteditperson": "Ches",
+                "area": "Mأ³",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.76",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.36836667,
+                    45.35584706
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Q623",
+                "subtitle": "Amorpha fruticosa L.",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Drainage of Left Clavicle, Percutaneous Endoscopic Approach, Diagnostic",
+                "year": "2000",
+                "lasteditdate": "12/11/2022",
+                "lasteditperson": "Obadiah",
+                "area": "Kalipare",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.77",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.58521855,
+                    45.6516481
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X500",
+                "subtitle": "Coffea L.",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Insertion of Monitoring Device into Left Ventricle, Percutaneous Approach",
+                "year": "1995",
+                "lasteditdate": "2/22/2022",
+                "lasteditperson": "Allyn",
+                "area": "Trmice",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.78",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.29241343,
+                    45.96192618
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "E938",
+                "subtitle": "Desmodium rosei B.G. Schub.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Release Left Middle Ear, Open Approach",
+                "year": "2007",
+                "lasteditdate": "4/16/2022",
+                "lasteditperson": "Glendon",
+                "area": "Bؤ…kأ³w",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.79",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.39499064,
+                    45.79754772
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U995",
+                "subtitle": "Athyrium americanum (Butters) Maxon",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Bypass Descending Colon to Rectum with Autologous Tissue Substitute, Via Natural or Artificial Opening Endoscopic",
+                "year": "2009",
+                "lasteditdate": "10/27/2022",
+                "lasteditperson": "Genevieve",
+                "area": "Billings",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.80",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.6502842,
+                    45.59769046
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U396",
+                "subtitle": "Lupinus wyethii S. Watson ssp. tetonensis (E.E. Nelson) Cox & D. Dunn",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Revision of Infusion Device in Right Finger Phalangeal Joint, Percutaneous Endoscopic Approach",
+                "year": "2005",
+                "lasteditdate": "9/16/2022",
+                "lasteditperson": "Pammi",
+                "area": "Santiago del Torno",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.81",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.72686449,
+                    45.40178735
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "D539",
+                "subtitle": "Agrimonia parviflora Aiton",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Excision of Right Upper Extremity, Percutaneous Endoscopic Approach, Diagnostic",
+                "year": "1989",
+                "lasteditdate": "03/02/2022",
+                "lasteditperson": "Juieta",
+                "area": "Philadelphia",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.82",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.94948921,
+                    45.57846686
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Y625",
+                "subtitle": "Rubus provincialis L.H. Bailey",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Reposition Left Hepatic Duct, Percutaneous Endoscopic Approach",
+                "year": "1985",
+                "lasteditdate": "5/22/2022",
+                "lasteditperson": "Merrill",
+                "area": "Besanأ§on",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.83",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.76326646,
+                    45.96511227
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "N542",
+                "subtitle": "Arabis pendulina Greene var. russeola (Rollins) Rollins",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Suture Removal from Head and Neck Region",
+                "year": "2005",
+                "lasteditdate": "3/18/2022",
+                "lasteditperson": "Egan",
+                "area": "Quarteira",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.84",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.85831432,
+                    45.46485082
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "M912",
+                "subtitle": "Lathrocasis L.A. Johnson",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Computerized Tomography (CT Scan) of Spinal Cord using High Osmolar Contrast",
+                "year": "1995",
+                "lasteditdate": "1/29/2023",
+                "lasteditperson": "Cicily",
+                "area": "Marseille",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.85",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.37961918,
+                    45.59797896
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Q750",
+                "subtitle": "Eucalyptus woodwardii Maiden",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Reposition Nasal Bone, Open Approach",
+                "year": "2001",
+                "lasteditdate": "09/08/2022",
+                "lasteditperson": "Zulema",
+                "area": "Campos Sales",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.86",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.54009408,
+                    45.62557634
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U789",
+                "subtitle": "Lotus salsuginosus Greene",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Reattachment of Right Hip Tendon, Open Approach",
+                "year": "2008",
+                "lasteditdate": "04/07/2022",
+                "lasteditperson": "Maxie",
+                "area": "Jasaan",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.87",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.83707244,
+                    45.59073961
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "G512",
+                "subtitle": "Ericameria parryi (A. Gray) G.L. Nesom & Baird var. nevadensis (A. Gray) G.L. Nesom & Baird",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Extirpation of Matter from Left Upper Leg Tendon, Open Approach",
+                "year": "2003",
+                "lasteditdate": "3/18/2022",
+                "lasteditperson": "Sigismondo",
+                "area": "Shypyntsi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.88",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.41875082,
+                    45.88126949
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "J075",
+                "subtitle": "Taraxacum officinale F.H. Wigg. ssp. officinale",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Revision of Monitoring Device in Right Lung, Open Approach",
+                "year": "1992",
+                "lasteditdate": "11/09/2022",
+                "lasteditperson": "Jodie",
+                "area": "Castilla",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.89",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.78152204,
+                    45.37066002
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Z101",
+                "subtitle": "Trichosalpinx Luer",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Bypass Jejunum to Jejunum, Percutaneous Endoscopic Approach",
+                "year": "1996",
+                "lasteditdate": "02/08/2023",
+                "lasteditperson": "Veronike",
+                "area": "Trudovoye",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.90",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.45978994,
+                    45.54837041
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X064",
+                "subtitle": "Spiranthes torta (Thunb.) Garay & H.R. Sweet",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Excision of Portal Vein, Percutaneous Endoscopic Approach",
+                "year": "1987",
+                "lasteditdate": "9/16/2022",
+                "lasteditperson": "Robbie",
+                "area": "Maogou",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.91",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.60144421,
+                    45.51591953
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "F786",
+                "subtitle": "Physconia Poelt",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Drainage of Left Main Bronchus with Drainage Device, Via Natural or Artificial Opening",
+                "year": "2004",
+                "lasteditdate": "9/13/2022",
+                "lasteditperson": "Aube",
+                "area": "â€کAbasؤپn al Kabؤ«rah",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.92",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.789672,
+                    45.60108188
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "E529",
+                "subtitle": "Platanthera أ—lassenii Schrenk",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Fluoroscopy of Upper GI and Small Bowel using Other Contrast",
+                "year": "2012",
+                "lasteditdate": "11/27/2022",
+                "lasteditperson": "Camel",
+                "area": "Sahline",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.93",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.33977917,
+                    45.5761345
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "M187",
+                "subtitle": "Proserpinaca palustris L. var. palustris",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Inspection of Thoracic Vertebral Disc, Percutaneous Approach",
+                "year": "2006",
+                "lasteditdate": "9/18/2022",
+                "lasteditperson": "Jozef",
+                "area": "إڑniadowo",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.94",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.8684949,
+                    45.408503
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "C748",
+                "subtitle": "Dicranum spurium Hedw.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Insertion of Pedicle-Based Spinal Stabilization Device into Cervical Vertebral Joint, Percutaneous Approach",
+                "year": "2010",
+                "lasteditdate": "8/17/2022",
+                "lasteditperson": "Arie",
+                "area": "Ramadi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.95",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.74656603,
+                    45.8522703
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "D686",
+                "subtitle": "Sagina nivalis (Lindbl.) Fr.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Restriction of Left Radial Artery, Open Approach",
+                "year": "1995",
+                "lasteditdate": "10/28/2022",
+                "lasteditperson": "Fionna",
+                "area": "Paأ§o de Arcos",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.96",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.49441634,
+                    45.46582282
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "C333",
+                "subtitle": "Hymenopappus filifolius Hook. var. cinereus (Rydb.) I.M. Johnst.",
+                "type": "?chantillon de sol",
+                "category": "Non-contaminé",
+                "status": "visible",
+                "description": "Repair Right Renal Artery, Open Approach",
+                "year": "1995",
+                "lasteditdate": "11/11/2022",
+                "lasteditperson": "Cord",
+                "area": "Nzega",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.97",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.35381192,
+                    45.55727547
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "J472",
+                "subtitle": "Platydictya confervoides (Brid.) H.A. Crum",
+                "type": "?chantillon de sol",
+                "category": "Contamination BC",
+                "status": "archived",
+                "description": "Dilation of Tricuspid Valve, Open Approach",
+                "year": "1997",
+                "lasteditdate": "11/12/2022",
+                "lasteditperson": "Mallory",
+                "area": "Suأ§",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.98",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.54585712,
+                    45.95336514
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "I921",
+                "subtitle": "Penstemon utahensis Eastw.",
+                "type": "?chantillon de sol",
+                "category": "Contamination AB",
+                "status": "visible",
+                "description": "Occlusion of Right Common Iliac Artery, Percutaneous Approach",
+                "year": "1999",
+                "lasteditdate": "4/29/2022",
+                "lasteditperson": "Arnaldo",
+                "area": "Kؤ…ty Wrocإ‚awskie",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.99",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.45530622,
+                    45.96828669
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L153",
+                "subtitle": "Plantago patagonica Jacq.",
+                "type": "?chantillon de sol",
+                "category": "En attente des résultats",
+                "status": "archived",
+                "description": "Occlusion of Aortic Lymphatic with Extraluminal Device, Open Approach",
+                "year": "2005",
+                "lasteditdate": "12/02/2022",
+                "lasteditperson": "Prinz",
+                "area": "Wؤپrؤپh",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.100",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.80443074,
+                    45.46783964
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "T439",
+                "subtitle": "Echinochloa muricata (P. Beauv.) Fernald var. microstachya Wiegand",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Bypass Right Subclavian Artery to Left Lower Leg Artery with Autologous Arterial Tissue, Open Approach",
+                "year": "2004",
+                "lasteditdate": "7/23/2022",
+                "lasteditperson": "Averill",
+                "area": "Suizhong",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.101",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.30480079,
+                    45.58457557
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X309",
+                "subtitle": "Cologania Kunth",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Removal of Internal Fixation Device from Left Metacarpocarpal Joint, Percutaneous Approach",
+                "year": "2003",
+                "lasteditdate": "01/07/2023",
+                "lasteditperson": "Christin",
+                "area": "Skiأ،thos",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.102",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.80807607,
+                    45.54915202
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "W887",
+                "subtitle": "Madia madioides (Nutt.) Greene",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Alteration of Right Upper Eyelid, Percutaneous Approach",
+                "year": "2006",
+                "lasteditdate": "5/29/2022",
+                "lasteditperson": "Nisse",
+                "area": "Soutelo",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.103",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.91657886,
+                    45.65807714
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "O343",
+                "subtitle": "Malvastrum americanum (L.) Torr.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Excision of Cervicothoracic Vertebral Joint, Percutaneous Approach, Diagnostic",
+                "year": "2008",
+                "lasteditdate": "06/10/2022",
+                "lasteditperson": "Koren",
+                "area": "Changâ€™an",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.104",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.31918754,
+                    45.4204579
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "W478",
+                "subtitle": "Dalea exigua Barneby",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Inspection of Right Sacroiliac Joint, External Approach",
+                "year": "1991",
+                "lasteditdate": "1/26/2023",
+                "lasteditperson": "Harriett",
+                "area": "Namikupa",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.105",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.81047705,
+                    45.3595656
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "I611",
+                "subtitle": "Everniicola D. Hawksw.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Drainage of Right Main Bronchus with Drainage Device, Percutaneous Endoscopic Approach",
+                "year": "1995",
+                "lasteditdate": "1/24/2023",
+                "lasteditperson": "Clem",
+                "area": "Bambanglipuro",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.106",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.56474833,
+                    45.93320864
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X478",
+                "subtitle": "Potentilla subviscosa Greene",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Supplement Cervicothoracic Vertebral Disc with Autologous Tissue Substitute, Percutaneous Endoscopic Approach",
+                "year": "1986",
+                "lasteditdate": "01/05/2023",
+                "lasteditperson": "Neale",
+                "area": "Itaporanga",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.107",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.57232928,
+                    45.7866119
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "B373",
+                "subtitle": "Xyris elliottii Chapm.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Fluoroscopy of Other Intra-Abdominal Arteries",
+                "year": "2001",
+                "lasteditdate": "1/26/2023",
+                "lasteditperson": "Brinn",
+                "area": "Peer",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.108",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.91454104,
+                    45.94603703
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "B397",
+                "subtitle": "Aureolaria Raf.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Removal of Neurostimulator Lead from Azygos Vein, Open Approach",
+                "year": "2000",
+                "lasteditdate": "7/19/2022",
+                "lasteditperson": "Nevile",
+                "area": "Jepat Kidul",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.109",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.46427441,
+                    45.67886796
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "P065",
+                "subtitle": "Chionodoxa luciliae Boiss.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Excision of Scrotum, External Approach",
+                "year": "2005",
+                "lasteditdate": "1/16/2022",
+                "lasteditperson": "Clarinda",
+                "area": "Dongda",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.110",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.32537275,
+                    45.59942737
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "W998",
+                "subtitle": "Bouteloua eludens Griffiths",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Revision of Infusion Device in Lumbar Vertebral Disc, Percutaneous Approach",
+                "year": "1987",
+                "lasteditdate": "10/10/2022",
+                "lasteditperson": "Dame",
+                "area": "Al Bawؤ«إ£ؤ«",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.111",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.02202437,
+                    45.57231293
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "V164",
+                "subtitle": "Cuscuta ceanothi Behr",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Alteration of Left Wrist Region with Synthetic Substitute, Percutaneous Approach",
+                "year": "2012",
+                "lasteditdate": "10/05/2022",
+                "lasteditperson": "Bo",
+                "area": "Buguruslan",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.112",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.27136697,
+                    45.49248073
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "I874",
+                "subtitle": "Ericameria parryi (A. Gray) G.L. Nesom & Baird var. aspra (Greene) G.L. Nesom & Baird",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Removal of Internal Fixation Device from Sacrum, Percutaneous Approach",
+                "year": "1996",
+                "lasteditdate": "2/14/2022",
+                "lasteditperson": "Farrel",
+                "area": "Sakerta Timur",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.113",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.88918828,
+                    45.43019746
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "F714",
+                "subtitle": "Acarospora fuscescens H. Magn.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Planar Nuclear Medicine Imaging of Neck Lymphatics using Other Radionuclide",
+                "year": "1998",
+                "lasteditdate": "11/27/2022",
+                "lasteditperson": "Stanislaw",
+                "area": "Ostroإ¾skأ، Lhota",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.114",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.73099485,
+                    45.37989631
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "S816",
+                "subtitle": "Arthonia arthonioides (Ach.) A.L. Sm.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Beam Radiation of Mediastinum using Neutron Capture",
+                "year": "2002",
+                "lasteditdate": "10/09/2022",
+                "lasteditperson": "Margette",
+                "area": "Jingxiyuan",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.115",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.78971949,
+                    45.44906997
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "T283",
+                "subtitle": "Centromadia Greene",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Fusion of 2 or more Cervical Vertebral Joints with Autologous Tissue Substitute, Posterior Approach, Posterior Column, Percutaneous Approach",
+                "year": "2012",
+                "lasteditdate": "02/08/2022",
+                "lasteditperson": "Carina",
+                "area": "Liufang",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.116",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.30179362,
+                    45.8125889
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U314",
+                "subtitle": "Quercus shumardii Buckley var. shumardii",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Removal of Infusion Device from Gastrointestinal Tract, Via Natural or Artificial Opening",
+                "year": "2011",
+                "lasteditdate": "7/19/2022",
+                "lasteditperson": "Delainey",
+                "area": "Palama",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.117",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.35295573,
+                    45.45679384
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "D480",
+                "subtitle": "Chrysothamnus gramineus H.M. Hall",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Repair Perineum Bursa and Ligament, Percutaneous Endoscopic Approach",
+                "year": "1993",
+                "lasteditdate": "03/04/2022",
+                "lasteditperson": "Vicky",
+                "area": "Meitang",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.118",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.29934496,
+                    45.41452371
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "S231",
+                "subtitle": "Lithospermum caroliniense (Walter ex J.F. Gmel.) MacMill. var. caroliniense",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Excision of Tonsils, Percutaneous Approach",
+                "year": "1985",
+                "lasteditdate": "07/02/2022",
+                "lasteditperson": "Rowen",
+                "area": "Alenأ§on",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.119",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.77445395,
+                    45.69511224
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "P747",
+                "subtitle": "Aristida palustris (Chapm.) Vasey",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Excision of Upper Esophagus, Open Approach, Diagnostic",
+                "year": "1992",
+                "lasteditdate": "1/19/2022",
+                "lasteditperson": "Laurella",
+                "area": "أپlli Meriأ،",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.120",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.84265978,
+                    45.53046837
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "E072",
+                "subtitle": "Quercus أ—schochiana Dieck ex Palmer",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Excision of Left Abdomen Tendon, Open Approach, Diagnostic",
+                "year": "1995",
+                "lasteditdate": "9/29/2022",
+                "lasteditperson": "Winn",
+                "area": "Pataias",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.121",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.33496406,
+                    45.91945655
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L809",
+                "subtitle": "Piscidia carthagenensis Jacq.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Magnetic Resonance Imaging (MRI) of Bilateral Eyes using Other Contrast, Unenhanced and Enhanced",
+                "year": "1997",
+                "lasteditdate": "06/11/2022",
+                "lasteditperson": "Marylee",
+                "area": "Camajuanأ­",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.122",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.80911029,
+                    45.84562756
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X641",
+                "subtitle": "Phacelia suaveolens Greene ssp. suaveolens",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Reposition Left Lacrimal Bone with Internal Fixation Device, Open Approach",
+                "year": "2002",
+                "lasteditdate": "9/17/2022",
+                "lasteditperson": "Harmon",
+                "area": "Ombul Barat",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.123",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.79769692,
+                    45.80196312
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "J586",
+                "subtitle": "Cyrtandra أ—kaalae H. St. John & Storey (pro sp.)",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Introduction of Other Diagnostic Substance into Lower GI, Percutaneous Approach",
+                "year": "1988",
+                "lasteditdate": "2/20/2023",
+                "lasteditperson": "Gan",
+                "area": "Feodosiya",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.124",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.43665127,
+                    45.89911188
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L941",
+                "subtitle": "Drosanthemum Schwant.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Replacement of Lower Tooth, Multiple, with Synthetic Substitute, Open Approach",
+                "year": "2004",
+                "lasteditdate": "1/27/2022",
+                "lasteditperson": "Thornie",
+                "area": "Xinghua",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.125",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.50049278,
+                    45.68047165
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "P579",
+                "subtitle": "Arthopyrenia cinereopruinosa (Schaerer) A. Massal.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Revision of Nonautologous Tissue Substitute in Tricuspid Valve, Percutaneous Endoscopic Approach",
+                "year": "1987",
+                "lasteditdate": "4/18/2022",
+                "lasteditperson": "Ebony",
+                "area": "Pulosari",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.126",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.31448025,
+                    45.3590857
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "F378",
+                "subtitle": "Paspalum plicatulum Michx.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Low Dose Rate (LDR) Brachytherapy of Spinal Cord using Other Isotope",
+                "year": "1997",
+                "lasteditdate": "9/26/2022",
+                "lasteditperson": "Ardyth",
+                "area": "Blonâ€™",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.127",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.49410495,
+                    45.4629589
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "R430",
+                "subtitle": "Gentiana douglasiana Bong.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Removal of Infusion Device from Lower Jaw, Percutaneous Approach",
+                "year": "2009",
+                "lasteditdate": "4/20/2022",
+                "lasteditperson": "Lawry",
+                "area": "Machico",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.128",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.68630545,
+                    45.82856404
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Q495",
+                "subtitle": "Loeselia greggii S. Watson",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Alteration of Left Lower Arm with Synthetic Substitute, Percutaneous Approach",
+                "year": "2002",
+                "lasteditdate": "2/21/2022",
+                "lasteditperson": "Dallas",
+                "area": "Ciracap",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.129",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.32152949,
+                    45.76147163
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L857",
+                "subtitle": "Mertensia oblongifolia (Nutt.) G. Don",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Reposition Left Lower Femur with Monoplanar External Fixation Device, Percutaneous Endoscopic Approach",
+                "year": "2005",
+                "lasteditdate": "5/13/2022",
+                "lasteditperson": "Sampson",
+                "area": "Kaminoyama",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.130",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.83878619,
+                    45.62572871
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "V806",
+                "subtitle": "Diplotomma alboatrum (Hoffm.) Flotow",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Excision of Appendix, Open Approach",
+                "year": "2004",
+                "lasteditdate": "11/30/2022",
+                "lasteditperson": "Karola",
+                "area": "Luar",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.131",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.99739528,
+                    45.35015434
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "F809",
+                "subtitle": "Lomatium triternatum (Pursh) J.M. Coult. & Rose",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Therapeutic Exercise Treatment of Circulatory System - Whole Body using Assistive, Adaptive, Supportive or Protective Equipment",
+                "year": "2009",
+                "lasteditdate": "11/12/2022",
+                "lasteditperson": "Madel",
+                "area": "Hitoyoshi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.132",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.37095632,
+                    45.78055931
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Y510",
+                "subtitle": "Penstemon caesius A. Gray",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Bypass Right Internal Jugular Vein to Upper Vein with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach",
+                "year": "1991",
+                "lasteditdate": "07/12/2022",
+                "lasteditperson": "Aileen",
+                "area": "Umuquena",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.133",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.25963747,
+                    45.726321
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "N964",
+                "subtitle": "Arthonia viridicans Willey",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Revision of Drainage Device in Occipital-cervical Joint, Open Approach",
+                "year": "2010",
+                "lasteditdate": "11/20/2022",
+                "lasteditperson": "Gilligan",
+                "area": "Ratilangi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.134",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.48368434,
+                    45.51028059
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "H868",
+                "subtitle": "Amsonia ciliata Walter var. texana (A. Gray) J.M. Coult.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Drainage of Right Upper Eyelid with Drainage Device, Open Approach",
+                "year": "2000",
+                "lasteditdate": "6/29/2022",
+                "lasteditperson": "Janeczka",
+                "area": "Shigu",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.135",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.90120981,
+                    45.96517759
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "J288",
+                "subtitle": "Eugenia eggersii Kiaersk.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Computerized Tomography (CT Scan) of Bilateral Vertebral Arteries using Low Osmolar Contrast",
+                "year": "2000",
+                "lasteditdate": "05/09/2022",
+                "lasteditperson": "Lyndsie",
+                "area": "Xinzha",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.136",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.68445167,
+                    45.41935083
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "P544",
+                "subtitle": "Aristida adscensionis L.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Restriction of Left Hypogastric Vein, Percutaneous Endoscopic Approach",
+                "year": "2006",
+                "lasteditdate": "3/22/2022",
+                "lasteditperson": "Guillaume",
+                "area": "Ambatolampy",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.137",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.38469678,
+                    45.66543765
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "C880",
+                "subtitle": "Arctostaphylos refugioensis Gankin",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Range of Motion and Joint Mobility Treatment of Integumentary System - Upper Back / Upper Extremity using Prosthesis",
+                "year": "1996",
+                "lasteditdate": "05/06/2022",
+                "lasteditperson": "Korie",
+                "area": "Leubatang",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.138",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.46091462,
+                    45.63405615
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "A615",
+                "subtitle": "Tortula chisosa Magill, Delgad. & L.R. Stark",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Revision of Infusion Device in Right Finger Phalangeal Joint, External Approach",
+                "year": "2004",
+                "lasteditdate": "11/23/2022",
+                "lasteditperson": "Dacy",
+                "area": "Nankؤپna Sؤپhib",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.139",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.34596525,
+                    45.41565436
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Q858",
+                "subtitle": "Empetrum nigrum L.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Reposition Right Temporal Bone, Open Approach",
+                "year": "1998",
+                "lasteditdate": "12/10/2022",
+                "lasteditperson": "De",
+                "area": "Guizi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.140",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.34660501,
+                    45.51977001
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "D378",
+                "subtitle": "Stachys recta L.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Binaural Hearing Aid Device Fitting using Assistive Listening Equipment",
+                "year": "2007",
+                "lasteditdate": "12/01/2022",
+                "lasteditperson": "Garfield",
+                "area": "Calle Blancos",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.141",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.60506421,
+                    45.89457483
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "S980",
+                "subtitle": "Crypsis vaginiflora (Forssk.) Opiz",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Coordination/Dexterity Treatment of Integumentary System - Lower Back / Lower Extremity using Other Equipment",
+                "year": "2007",
+                "lasteditdate": "5/27/2022",
+                "lasteditperson": "Thain",
+                "area": "Huangzhu",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.142",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.76829757,
+                    45.69796679
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "N916",
+                "subtitle": "Phacelia imbricata Greene ssp. patula (Brand) Heckard",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Nonspoken Language Assessment",
+                "year": "2006",
+                "lasteditdate": "04/12/2022",
+                "lasteditperson": "Friedrick",
+                "area": "Bagroy",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.143",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.95484471,
+                    45.44326718
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Q999",
+                "subtitle": "Thelypteris piedrensis (C. Chr.) Morton",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Reposition Right Temporal Bone with Internal Fixation Device, Percutaneous Endoscopic Approach",
+                "year": "2009",
+                "lasteditdate": "01/06/2022",
+                "lasteditperson": "Lock",
+                "area": "Tetebatu",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.144",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.30168194,
+                    45.56439514
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "B575",
+                "subtitle": "Stenaria nigricans (Lam.) Terrell",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Replacement of Azygos Vein with Synthetic Substitute, Open Approach",
+                "year": "1984",
+                "lasteditdate": "07/01/2022",
+                "lasteditperson": "Aldridge",
+                "area": "Velyka Lepetykha",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.145",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.30023649,
+                    45.94759601
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "B509",
+                "subtitle": "Trifolium piorkowskii Rand. Morgan & A.L. Barber",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Reposition Left Toe Phalanx with External Fixation Device, Percutaneous Approach",
+                "year": "2010",
+                "lasteditdate": "12/27/2022",
+                "lasteditperson": "Chan",
+                "area": "Hoktember",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.146",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.78947564,
+                    45.35484329
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "D875",
+                "subtitle": "Gutierrezia californica (DC.) Torr. & A. Gray",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Bypass Left Internal Iliac Artery to Left External Iliac Artery with Autologous Arterial Tissue, Open Approach",
+                "year": "1998",
+                "lasteditdate": "8/15/2022",
+                "lasteditperson": "Benedicta",
+                "area": "Xiaba",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.147",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.96025356,
+                    45.6543218
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "K871",
+                "subtitle": "Tradescantia hirsutiflora Bush",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Supplement Left Internal Mammary Lymphatic with Autologous Tissue Substitute, Open Approach",
+                "year": "1989",
+                "lasteditdate": "1/21/2022",
+                "lasteditperson": "Cullen",
+                "area": "Yuejin",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.148",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.00222557,
+                    45.69726887
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "G717",
+                "subtitle": "Leavenworthia alabamica Rollins var. brachystyla Rollins",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Extirpation of Matter from Greater Omentum, Percutaneous Endoscopic Approach",
+                "year": "2011",
+                "lasteditdate": "09/11/2022",
+                "lasteditperson": "Issie",
+                "area": "Tumbi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.149",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.80773328,
+                    45.44854768
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "K067",
+                "subtitle": "Ludwigia repens J.R. Forst.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Insertion of Pacemaker Lead into Left Atrium, Open Approach",
+                "year": "2004",
+                "lasteditdate": "1/14/2023",
+                "lasteditperson": "Christy",
+                "area": "Daxi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.150",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.87752952,
+                    45.79678023
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "O818",
+                "subtitle": "Rosa stellata Wooton ssp. abyssa A. Phillips",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Bypass Ileum to Cutaneous with Autologous Tissue Substitute, Open Approach",
+                "year": "2005",
+                "lasteditdate": "1/17/2023",
+                "lasteditperson": "Karylin",
+                "area": "Balabag",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.151",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.79231001,
+                    45.7904714
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Z872",
+                "subtitle": "Chenopodium leptophyllum (Moq.) Nutt. ex S. Watson",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Cochlear Implant Rehabilitation Treatment using Audiometer",
+                "year": "1989",
+                "lasteditdate": "2/13/2023",
+                "lasteditperson": "Yasmin",
+                "area": "Fukayachإچ",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.152",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.57399277,
+                    45.47713837
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "T062",
+                "subtitle": "Condalia hookeri M.C. Johnst. var. hookeri",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Removal of Drainage Device from Bone Marrow, External Approach",
+                "year": "1991",
+                "lasteditdate": "3/14/2022",
+                "lasteditperson": "Shanie",
+                "area": "Sukojember",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.153",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.84570834,
+                    45.37206053
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "H587",
+                "subtitle": "Dichanthium annulatum (Forssk.) Stapf var. annulatum",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Extirpation of Matter from Ascending Colon, Percutaneous Approach",
+                "year": "2005",
+                "lasteditdate": "11/09/2022",
+                "lasteditperson": "Esma",
+                "area": "Kyzyl-Oktyabrâ€™skiy",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.154",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.50680005,
+                    45.71495945
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "I778",
+                "subtitle": "Diapensia lapponica L.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Immobilization of Left Lower Leg using Brace",
+                "year": "1999",
+                "lasteditdate": "10/27/2022",
+                "lasteditperson": "Raimund",
+                "area": "Sinazongwe",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.155",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.5296807,
+                    45.53731965
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "C940",
+                "subtitle": "Vauquelinia californica (Torr.) Sarg.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Replacement of Nasal Septum with Nonautologous Tissue Substitute, Percutaneous Approach",
+                "year": "1995",
+                "lasteditdate": "11/25/2022",
+                "lasteditperson": "Bernadette",
+                "area": "Washington",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.156",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.89524422,
+                    45.48588214
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U157",
+                "subtitle": "Houstonia wrightii A. Gray",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Restriction of Common Bile Duct with Intraluminal Device, Via Natural or Artificial Opening Endoscopic",
+                "year": "1992",
+                "lasteditdate": "7/15/2022",
+                "lasteditperson": "Jordan",
+                "area": "Poste de Flacq",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.157",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.92784328,
+                    45.56047441
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "O037",
+                "subtitle": "Valeriana scandens L.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Occlusion of Right Kidney Pelvis, Open Approach",
+                "year": "2004",
+                "lasteditdate": "1/29/2023",
+                "lasteditperson": "Hendrik",
+                "area": "Diaoling",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.158",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.29104879,
+                    45.81658717
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "I824",
+                "subtitle": "Galium verum L. var. verum",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Inspection of Left Ankle Region, External Approach",
+                "year": "2008",
+                "lasteditdate": "12/23/2022",
+                "lasteditperson": "Myca",
+                "area": "Xiaosong",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.159",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.44923322,
+                    45.88580473
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "P711",
+                "subtitle": "Setaria setosa (Sw.) P. Beauv. var. setosa",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Occlusion of Left Lower Extremity Lymphatic, Open Approach",
+                "year": "2000",
+                "lasteditdate": "04/10/2022",
+                "lasteditperson": "Briano",
+                "area": "Margotuhu Kidul",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.160",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.84706035,
+                    45.53614286
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L536",
+                "subtitle": "Scleranthus L.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Introduction of Anti-inflammatory into Respiratory Tract, Via Natural or Artificial Opening Endoscopic",
+                "year": "2008",
+                "lasteditdate": "4/17/2022",
+                "lasteditperson": "Delano",
+                "area": "Kedung",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.161",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.41910012,
+                    45.78535073
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "F046",
+                "subtitle": "Platanthera أ—andrewsii (M. White) Luer",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Transfer Right Foot Muscle with Skin, Percutaneous Endoscopic Approach",
+                "year": "2005",
+                "lasteditdate": "7/29/2022",
+                "lasteditperson": "Blakelee",
+                "area": "Maizuru",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.162",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.59360352,
+                    45.40446371
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "A975",
+                "subtitle": "Hymenoxys ambigens (S.F. Blake) Bierner var. neomexicana W.L. Wagner",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Alteration of Left External Ear with Nonautologous Tissue Substitute, External Approach",
+                "year": "2006",
+                "lasteditdate": "1/26/2022",
+                "lasteditperson": "Valida",
+                "area": "Chixi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.163",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.69455543,
+                    45.50914033
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "A211",
+                "subtitle": "Hygroamblystegium tenax (Hedw.) Jenn. var. tenax",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Beam Radiation of Pancreas using Electrons",
+                "year": "2005",
+                "lasteditdate": "5/29/2022",
+                "lasteditperson": "Rubin",
+                "area": "Parenggan",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.164",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.65607982,
+                    45.38636371
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "K939",
+                "subtitle": "Phlox variabilis Brand",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Removal of Internal Fixation Device from Thoracic Vertebral Joint, External Approach",
+                "year": "2002",
+                "lasteditdate": "2/19/2022",
+                "lasteditperson": "Odie",
+                "area": "Mأ¶nhbulag",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.165",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.34960335,
+                    45.58537606
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "B913",
+                "subtitle": "Penstemon lentus Pennell var. lentus",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Dilation of Coronary Artery, One Artery, Bifurcation, with Radioactive Intraluminal Device, Percutaneous Endoscopic Approach",
+                "year": "2009",
+                "lasteditdate": "5/14/2022",
+                "lasteditperson": "Rachel",
+                "area": "Jiaozuo",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.166",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.88798641,
+                    45.71507506
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "I385",
+                "subtitle": "Eriogonum heracleoides Nutt. var. leucophaeum Reveal",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Reposition Right Tibia with Internal Fixation Device, Percutaneous Endoscopic Approach",
+                "year": "1994",
+                "lasteditdate": "02/06/2022",
+                "lasteditperson": "Dix",
+                "area": "El Asintal",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.167",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.91222248,
+                    45.53285452
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "U226",
+                "subtitle": "Oxytropis oreophila A. Gray var. juniperina S.L. Welsh",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Introduction of Electrolytic and Water Balance Substance into Muscle, Percutaneous Approach",
+                "year": "1993",
+                "lasteditdate": "05/11/2022",
+                "lasteditperson": "Merci",
+                "area": "Sundsvall",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.168",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.28554982,
+                    45.81299415
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "W144",
+                "subtitle": "Artemisia lindleyana Besser",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Insertion of Limb Lengthening External Fixation Device into Right Femoral Shaft, Percutaneous Endoscopic Approach",
+                "year": "2010",
+                "lasteditdate": "9/20/2022",
+                "lasteditperson": "Rochelle",
+                "area": "Suwaduk",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.169",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.67581712,
+                    45.43820724
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "G248",
+                "subtitle": "Silene cryptopetala Hillebr.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Dilation of Right Hand Artery with Three Intraluminal Devices, Percutaneous Approach",
+                "year": "2012",
+                "lasteditdate": "5/24/2022",
+                "lasteditperson": "Dianne",
+                "area": "Ogawa",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.170",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.25508253,
+                    45.93111579
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "R250",
+                "subtitle": "Pyrenocollema tichothecioides (Arnold) R.C. Harris",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Excision of Vagus Nerve, Open Approach, Diagnostic",
+                "year": "2012",
+                "lasteditdate": "09/03/2022",
+                "lasteditperson": "Filmore",
+                "area": "Ourentأ£",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.171",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.43365239,
+                    45.4460413
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Q600",
+                "subtitle": "Psychotria hawaiiensis (A. Gray) Fosberg var. hawaiiensis",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Fusion of Left Sacroiliac Joint with Autologous Tissue Substitute, Open Approach",
+                "year": "2010",
+                "lasteditdate": "9/13/2022",
+                "lasteditperson": "Haven",
+                "area": "Granja do Tedo",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.172",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.41403338,
+                    45.37985538
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "I420",
+                "subtitle": "Microseris laciniata (Hook.) Sch. Bip. ssp. laciniata",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Release Right Temporomandibular Joint, Open Approach",
+                "year": "2005",
+                "lasteditdate": "3/16/2022",
+                "lasteditperson": "Xylia",
+                "area": "Houston",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.173",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.58854811,
+                    45.4721152
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "M719",
+                "subtitle": "Platanthera dilatata (Pursh) Lindl. ex Beck var. leucostachys (Lindl.) Luer",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Transfer Facial Nerve to Vagus Nerve, Percutaneous Endoscopic Approach",
+                "year": "2002",
+                "lasteditdate": "2/28/2022",
+                "lasteditperson": "Julia",
+                "area": "Guararأ©",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.174",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.47509735,
+                    45.8499169
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "O200",
+                "subtitle": "Argyroxiphium DC.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Replacement of Right Fibula with Autologous Tissue Substitute, Percutaneous Endoscopic Approach",
+                "year": "1989",
+                "lasteditdate": "9/16/2022",
+                "lasteditperson": "Mady",
+                "area": "Carmelo",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.175",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.76153375,
+                    45.80354526
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L435",
+                "subtitle": "Cyperus retrorsus Chapm.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Bypass Left External Iliac Artery to Foot Artery with Synthetic Substitute, Percutaneous Endoscopic Approach",
+                "year": "1983",
+                "lasteditdate": "09/02/2022",
+                "lasteditperson": "Clevey",
+                "area": "Saintes",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.176",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.56663506,
+                    45.35669004
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "H643",
+                "subtitle": "Coursetia caribaea (Jacq.) Lavin",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Osteopathic Treatment of Rib Cage using High Velocity-Low Amplitude Forces",
+                "year": "2007",
+                "lasteditdate": "7/26/2022",
+                "lasteditperson": "Dinny",
+                "area": "Huolu",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.177",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.67223435,
+                    45.51422525
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L294",
+                "subtitle": "Lecidea carneoalbens Nyl.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Excision of Right Shoulder Muscle, Open Approach",
+                "year": "2000",
+                "lasteditdate": "12/22/2022",
+                "lasteditperson": "Bryant",
+                "area": "Stoney Ground",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.178",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.74554217,
+                    45.42340956
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "R757",
+                "subtitle": "Tetracoccus Engelm. ex Parry",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Drainage of Left Occipital Bone, Percutaneous Approach",
+                "year": "1993",
+                "lasteditdate": "12/02/2022",
+                "lasteditperson": "Maryellen",
+                "area": "Igarapأ©",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.179",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.66367431,
+                    45.62557893
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "M446",
+                "subtitle": "Meliosma Blume",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Destruction of Hymen, Percutaneous Endoscopic Approach",
+                "year": "1987",
+                "lasteditdate": "4/21/2022",
+                "lasteditperson": "Keenan",
+                "area": "Jiangjiazui",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.180",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.6508402,
+                    45.93478339
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "W979",
+                "subtitle": "Luziola Juss.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Drainage of Right Hip Tendon, Percutaneous Endoscopic Approach",
+                "year": "2008",
+                "lasteditdate": "02/06/2023",
+                "lasteditperson": "Kacey",
+                "area": "Gongxi",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.181",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.79945505,
+                    45.38622313
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "Y395",
+                "subtitle": "Heliomeris longifolia (B.L. Rob. & Greenm.) Cockerell var. longifolia",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Excision of Left Anterior Tibial Artery, Percutaneous Approach",
+                "year": "2001",
+                "lasteditdate": "1/21/2023",
+                "lasteditperson": "Thoma",
+                "area": "Sacramento",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.182",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.88393102,
+                    45.47738359
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "T753",
+                "subtitle": "Hypnum plicatulum (Lindb.) A. Jaeger",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Beam Radiation of Chest Wall using Electrons, Intraoperative",
+                "year": "2009",
+                "lasteditdate": "11/06/2022",
+                "lasteditperson": "Lazar",
+                "area": "Torbat-e Jؤپm",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.183",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.80549326,
+                    45.50408519
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "L209",
+                "subtitle": "Chrysophyllum mexicanum Brandegee ex Standl.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Revision of Other Device in Face, Percutaneous Approach",
+                "year": "2007",
+                "lasteditdate": "3/25/2022",
+                "lasteditperson": "Lindsay",
+                "area": "Campoverde",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.184",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.28833881,
+                    45.42715761
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "P216",
+                "subtitle": "Coccoloba tenuifolia L.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Therapeutic Exercise Treatment of Circulatory System - Head and Neck using Assistive, Adaptive, Supportive or Protective Equipment",
+                "year": "2002",
+                "lasteditdate": "2/14/2023",
+                "lasteditperson": "Darcy",
+                "area": "Longxian Chengguanzhen",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.185",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.01735297,
+                    45.6260097
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "I156",
+                "subtitle": "Melicope haupuensis (H. St. John) T.G. Hartley & B.C. Stone",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Revision of Intraluminal Device in Mouth and Throat, Percutaneous Approach",
+                "year": "2001",
+                "lasteditdate": "1/19/2022",
+                "lasteditperson": "Gunther",
+                "area": "Patrocinio",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.186",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.44831113,
+                    45.61532083
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "M881",
+                "subtitle": "Crataegus ater Ashe",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Revision of Nonautologous Tissue Substitute in Coccygeal Joint, Percutaneous Approach",
+                "year": "1997",
+                "lasteditdate": "5/17/2022",
+                "lasteditperson": "Cyndy",
+                "area": "Nؤپlإ«t",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.187",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.3630691,
+                    45.38915667
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "X958",
+                "subtitle": "Hypotrachyna gondylophora (Hale) Hale",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Dilation of Left Vertebral Artery, Bifurcation, with Four or More Drug-eluting Intraluminal Devices, Percutaneous Endoscopic Approach",
+                "year": "2005",
+                "lasteditdate": "7/15/2022",
+                "lasteditperson": "Frank",
+                "area": "Casalinho",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.188",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.77581147,
+                    45.84837347
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "G747",
+                "subtitle": "Alyssum szovitsianum Fisch. & C.A. Mey.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Bypass Bilateral Ureters to Ileum with Nonautologous Tissue Substitute, Open Approach",
+                "year": "1993",
+                "lasteditdate": "9/22/2022",
+                "lasteditperson": "Flo",
+                "area": "Qalâ€کah-ye Kuhnah",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.189",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.98166742,
+                    45.87316258
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "O022",
+                "subtitle": "Rimelia Hale & Fletcher",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Plaque Radiation of Maxilla",
+                "year": "2012",
+                "lasteditdate": "1/24/2023",
+                "lasteditperson": "Sargent",
+                "area": "Komletinci",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.190",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.93496536,
+                    45.95902496
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "B016",
+                "subtitle": "Fritillaria ojaiensis Davidson",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Drainage of Anus, External Approach, Diagnostic",
+                "year": "2003",
+                "lasteditdate": "02/08/2022",
+                "lasteditperson": "Jerrilee",
+                "area": "Dؤ™bno",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.191",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.52969835,
+                    45.57046442
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "D687",
+                "subtitle": "Cylindropuntia acanthocarpa (Engelm. & J.M. Bigelow) F.M. Knuth var. thornberi (Thornb. & Bonker) Pinkava",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Excision of Abdominal Sympathetic Nerve, Percutaneous Endoscopic Approach",
+                "year": "1994",
+                "lasteditdate": "04/12/2022",
+                "lasteditperson": "Hale",
+                "area": "Huangyuan Chengguanzhen",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.192",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.88250117,
+                    45.41737221
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "A868",
+                "subtitle": "Grindelia havardii Steyerm.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Reposition Right Humeral Head with Hybrid External Fixation Device, Percutaneous Approach",
+                "year": "1993",
+                "lasteditdate": "09/03/2022",
+                "lasteditperson": "Aubine",
+                "area": "Chinأ؛",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.193",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.70994023,
+                    45.75906592
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "J962",
+                "subtitle": "Glandulicactus uncinatus (Galeotti) Backeb. var. wrightii (Engelm.) Backeb.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Supplement Olfactory Nerve with Autologous Tissue Substitute, Open Approach",
+                "year": "2009",
+                "lasteditdate": "7/26/2022",
+                "lasteditperson": "Breena",
+                "area": "La Paz",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.194",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.37448743,
+                    45.4116764
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "C729",
+                "subtitle": "Cyperus pulguerensis M.T. Strong",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Drainage of Right Abdomen Bursa and Ligament, Percutaneous Approach",
+                "year": "2010",
+                "lasteditdate": "8/19/2022",
+                "lasteditperson": "Homere",
+                "area": "Dragash",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.195",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.79297113,
+                    45.49681845
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "A289",
+                "subtitle": "Calochortus clavatus S. Watson",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Occlusion of Right External Carotid Artery, Open Approach",
+                "year": "2006",
+                "lasteditdate": "12/27/2022",
+                "lasteditperson": "Marion",
+                "area": "Niort",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.196",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.79256355,
+                    45.4894082
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "P303",
+                "subtitle": "Arctostaphylos pringlei Parry ssp. pringlei",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Upper Bones, Inspection",
+                "year": "2006",
+                "lasteditdate": "11/18/2022",
+                "lasteditperson": "Georgi",
+                "area": "Lilongwe",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.197",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.61719937,
+                    45.56391395
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "O894",
+                "subtitle": "Panicum laxum Sw.",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Alteration of Anterior Neck Subcutaneous Tissue and Fascia, Percutaneous Approach",
+                "year": "2009",
+                "lasteditdate": "9/13/2022",
+                "lasteditperson": "Roseline",
+                "area": "Sagay",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.198",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.51643089,
+                    45.70750791
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "M207",
+                "subtitle": "Hygrohypnum closteri (Austin) Grout",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "visible",
+                "description": "Beam Radiation of Gallbladder using Photons 1 - 10 MeV",
+                "year": "2005",
+                "lasteditdate": "01/11/2023",
+                "lasteditperson": "Nataline",
+                "area": "Sandaogou",
+                "files": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "valmont.199",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.59561392,
+                    45.61312911
+                ]
+            },
+            "geometry_name": "geom",
+            "properties": {
+                "title": "N311",
+                "subtitle": "Silene clokeyi C.L. Hitchc. & Maguire",
+                "type": "Pont et ponceau",
+                "category": "Pont et ponceau",
+                "status": "archived",
+                "description": "Replacement of Right External Iliac Artery with Autologous Tissue Substitute, Open Approach",
+                "year": "2012",
+                "lasteditdate": "10/23/2022",
+                "lasteditperson": "Rosemarie",
+                "area": "San Salvador",
+                "files": ""
+            }
+        }
+    ],
+    "totalFeatures": 200,
+    "numberMatched": 200,
+    "numberReturned": 200,
+    "timeStamp": "2023-02-26T06:36:44.721Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }
+}
