@@ -22,8 +22,8 @@ var iconMap = (getColor, category)=> {
     iconUrl: `/assets/img/${getColor(category)}_icon.png`,
   
     iconSize:     [20, 30], // size of the icon
-    iconAnchor:   [33, 94], // point of the icon which will correspond to marker's location
-    popupAnchor:  [-25, -90] // point from which the popup should open relative to the iconAnchor
+    iconAnchor:   [10, 30], // point of the icon which will correspond to marker's location
+    popupAnchor:  [-0, -30] // point from which the popup should open relative to the iconAnchor
 });
 
 return customIcon
@@ -50,9 +50,9 @@ var a  = 'https://val.aponiawebsolutions.ca/geoserver/wfs?service=WFS&version=2.
 
  function handleJson(data) {
         selectedArea = L.geoJson(data, {
-          // onEachFeature: function(feature, layer) {
-          //   layer.bindPopup(displayPopup(feature))
-          // },
+          onEachFeature: function(feature, layer) {
+            layer.bindPopup(displayPopup(feature)).addTo(map)
+          },
           pointToLayer: (feature,latLon)=>{
             var icon = iconMap(getColor, feature.properties.category)
             L.marker(latLon, {icon})
