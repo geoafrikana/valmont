@@ -11,13 +11,12 @@ const getColor = (category)=>{
         'en attente des résultats': 'blue' //'#5EB6E4'
     }
 
-    return colorMap[category]? colorMap[category] : 'default' // #800080ff
+    return colorMap[category] ? colorMap[category] : 'default' // #800080ff
 
 }
 
 var iconMap = (getColor, category)=> {
    const colorCode = getColor(category)
-  console.log(colorCode)
   var customIcon = L.icon({
     iconUrl: `/assets/img/${getColor(category)}_icon.png`,
   
@@ -44,35 +43,39 @@ const displayPopup = (feature)=>{
 
     return popupContent
 }
-var a  = 'https://val.aponiawebsolutions.ca/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeName=valmont%3Avalmont&outputFormat=text%2Fjavascript&jsonpCallback=parseResponse&format_options=callback%3Acb'
- a = './assets/data/data.json'
 
 
- function handleJson(data) {
-        selectedArea = L.geoJson(data, {
-          onEachFeature: function(feature, layer) {
-            layer.bindPopup(displayPopup(feature)).addTo(map)
-          },
-          pointToLayer: (feature,latLon)=>{
-            var icon = iconMap(getColor, feature.properties.category)
-            L.marker(latLon, {icon})
-            .bindPopup(displayPopup(feature))
-            .addTo(map);
-          }
-        })
-        
-        // .addTo(map);
-        map.fitBounds(selectedArea.getBounds());
+
+const handleJson = (data)=> {
+  data = JSON.parse(data)
+
+  L.geoJson(data, {
+    pointToLayer: (feature,latLon)=>{
+      var icon = iconMap(getColor, feature.properties.category)
+      L.marker(latLon, {icon})
+      .bindPopup(displayPopup(feature))
+      .addTo(map);
     }
-  
+  })
+
+}
 
 
-fetch(a)
-.then(r=>r.text(r))
-.then(d => {
-//   d = d.slice(3, -1)
-d = JSON.parse(d)
-handleJson(d)
-console.log(d)
+var owsRootUrl = 'https://val.aponiawebsolutions.ca/geoserver/ows';
 
-})
+var params = {
+  service : 'WFS',
+  version : '2.0',
+  request : 'GetFeature',
+  typeName : 'valmont:valmont',
+  outputFormat : 'application/json',
+  SrsName : 'EPSG:4326'
+};
+
+params = L.Util.extend(params)
+var fullUrl = owsRootUrl + L.Util.getParamString(params)
+
+
+fetch(fullUrl)
+.then(response => response.text(response))
+.then(data => handleJson(data))

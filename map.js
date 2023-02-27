@@ -1,5 +1,6 @@
 var map = L.map('map', {zoomControl:false}).setView([45.66285042, -75.64598285], 13);
 
+
 var OpenStreetMap  = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
@@ -28,7 +29,7 @@ var DEMBlackAndWhite = L.tileLayer.wms(WmsUrl, {
 var DEMColor = L.tileLayer.wms(WmsUrl, {
     layers: 'dem_3857',
     format: 'image/png',
-    styles: 'dem_topo_style',
+    styles: 'dem_style',
     opacity: 0.5,
     tiled: true,
     attribution: "Aponia Web Solutions"
