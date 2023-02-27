@@ -1,8 +1,8 @@
+// 
 const getColor = (category)=>{
-
     category = category.toLowerCase();
     
-
+    // These colors are in defined in index.css
     var colorMap = {
         // these colors are defined in index.css
         'non-contaminé': 'green',// '#79B943',
@@ -10,13 +10,13 @@ const getColor = (category)=>{
         'contamination ab': 'red',//'#FD4343',
         'en attente des résultats': 'blue' //'#5EB6E4'
     }
-
     return colorMap[category] ? colorMap[category] : 'default' // #800080ff
-
 }
 
+// Design custom markers for the point layers
+
 var iconMap = (getColor, category)=> {
-   const colorCode = getColor(category)
+
   var customIcon = L.icon({
     iconUrl: `/assets/img/${getColor(category)}_icon.png`,
   
@@ -29,11 +29,13 @@ return customIcon
 }
 
 
+// Design popup for data based on attributes
 const displayPopup = (feature)=>{
     const heading = 'Tittle here duis vitae posuere diam'
     const title = feature.properties.title
     const degreeOfContamination = feature.properties.category
     const downloadPath = feature.properties.file
+
     const popupContent = `<h3 style="font-size:0.8rem; padding: 3px">${heading}</h3>
     <hr>
     <h3 style="font-size:0.7rem; margin-top:20px">${title}</h3>
@@ -45,11 +47,13 @@ const displayPopup = (feature)=>{
 }
 
 
+// Function for displaying the resulting data
 
 const handleJson = (data)=> {
   data = JSON.parse(data)
 
   L.geoJson(data, {
+    // Read each point in the data then give it an icon and popup
     pointToLayer: (feature,latLon)=>{
       var icon = iconMap(getColor, feature.properties.category)
       L.marker(latLon, {icon})
@@ -60,9 +64,12 @@ const handleJson = (data)=> {
 
 }
 
-
+// End point for fetching all WFS data from geoserver
 var owsRootUrl = 'https://val.aponiawebsolutions.ca/geoserver/ows';
 
+
+// fetching data begins
+// Additional URL parameters for specifying the data to fetch, which format it should be and which 
 var params = {
   service : 'WFS',
   version : '2.0',
@@ -72,10 +79,12 @@ var params = {
   SrsName : 'EPSG:4326'
 };
 
+// joining root url and GET parameters to form full GET URL
 params = L.Util.extend(params)
 var fullUrl = owsRootUrl + L.Util.getParamString(params)
 
 
+// fetch data as JSON and pass to handleJSON 
 fetch(fullUrl)
 .then(response => response.text(response))
 .then(data => handleJson(data))
