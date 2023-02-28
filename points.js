@@ -28,6 +28,15 @@ var iconMap = (getColor, category)=> {
 return customIcon
 }
 
+// clears points from map
+const clearPoints = ()=>{
+  map.eachLayer((layer)=>{
+    if(! (layer instanceof L.TileLayer)){
+      map.removeLayer(layer)
+    }
+        
+  })
+}
 
 // Design popup for data based on attributes
 const displayPopup = (feature)=>{
@@ -51,7 +60,7 @@ const displayPopup = (feature)=>{
 
 const handleJson = (data)=> {
   data = JSON.parse(data)
-
+  console.log(data.features.length)
   L.geoJson(data, {
     // Read each point in the data then give it an icon and popup
     pointToLayer: (feature,latLon)=>{
@@ -64,9 +73,31 @@ const handleJson = (data)=> {
 
 }
 
+
+
+// Get leaflet map bounds and convert to geoserver format
+const calculateBBox = ()=>{
+  //https://docs.geoserver.org/stable/en/user/tutorials/wmsreflector.html
+  //bbox=minx,miny,maxx,maxy
+  //x is longitude, y is latitude
+  var bounds = map.getBounds();
+  bounds=      [bounds['_southWest']['lng'], //minx
+                bounds['_southWest']['lat'], //miny
+                bounds['_northEast']['lng'], //maxx
+                bounds['_northEast']['lat'] //maxy
+                ] 
+  bounds = bounds.toString()
+
+  return bounds
+}
+
+
+
+// fetch data as JSON and pass to handleJSON 
+const fetchPoints = (boundingBox)=>{
+  
 // End point for fetching all WFS data from geoserver
 var owsRootUrl = 'https://val.aponiawebsolutions.ca/geoserver/ows';
-
 
 // fetching data begins
 // Additional URL parameters for specifying the data to fetch, which format it should be and which 
@@ -76,15 +107,33 @@ var params = {
   request : 'GetFeature',
   typeName : 'valmont:valmont',
   outputFormat : 'application/json',
-  SrsName : 'EPSG:4326'
+  SrsName : 'EPSG:4326', // We need data to be returned as degree lat/lon not UTM coordinates
+  bbox: boundingBox+',EPSG:4326' // Native CRS is EPSG:3857 but leaflet supplies boundingBox in EPSG:4326
 };
 
 // joining root url and GET parameters to form full GET URL
 params = L.Util.extend(params)
 var fullUrl = owsRootUrl + L.Util.getParamString(params)
 
+console.log(fullUrl)
+  fetch(fullUrl)
+  .then(response => response.text(response))
+  .then(data => {
+    
+    handleJson(data);
+   
+  
+  })
 
-// fetch data as JSON and pass to handleJSON 
-fetch(fullUrl)
-.then(response => response.text(response))
-.then(data => handleJson(data))
+}
+
+//When map first loads, the default bounding 
+var boundingBox = calculateBBox()
+fetchPoints(boundingBox)
+
+// When map zooms or pans, we get the bounding box of viewport after zoom/pan, clear existing points then fetch and display new points
+map.addEventListener('moveend', ()=>{
+  var boundingBox = calculateBBox()
+  clearPoints();
+  fetchPoints(boundingBox)
+})
