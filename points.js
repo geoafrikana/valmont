@@ -1,4 +1,7 @@
 // 
+var found= false;
+var currentPopupLat = null;
+var currentPopupLng = null;
 const getColor = (category)=>{
     category = category.toLowerCase();
     
@@ -60,14 +63,16 @@ const displayPopup = (feature)=>{
 
 const handleJson = (data)=> {
   data = JSON.parse(data)
-  console.log(data.features.length)
-  L.geoJson(data, {
+   L.geoJson(data, {
     // Read each point in the data then give it an icon and popup
     pointToLayer: (feature,latLon)=>{
       var icon = iconMap(getColor, feature.properties.category)
-      L.marker(latLon, {icon})
-      .bindPopup(displayPopup(feature))
-      .addTo(map);
+     var m =  L.marker(latLon, {icon})
+     m.bindPopup(displayPopup(feature)).addTo(map);
+
+    if(found && currentPopupLat == latLon.lat && currentPopupLng == latLon.lng){
+      m.openPopup()
+    }
     }
   })
 
@@ -115,15 +120,9 @@ var params = {
 params = L.Util.extend(params)
 var fullUrl = owsRootUrl + L.Util.getParamString(params)
 
-console.log(fullUrl)
   fetch(fullUrl)
   .then(response => response.text(response))
-  .then(data => {
-    
-    handleJson(data);
-   
-  
-  })
+  .then(data => handleJson(data))
 
 }
 
@@ -131,9 +130,33 @@ console.log(fullUrl)
 var boundingBox = calculateBBox()
 fetchPoints(boundingBox)
 
+
+map.addEventListener('movestart', ()=>{
+ 
+  var valmontPoints = []
+  found = false
+  map.eachLayer((layer)=>{
+    if(! (layer instanceof L.TileLayer)){
+      valmontPoints.push(layer)
+    }
+        
+  })
+  currentPopup = null;
+  valmontPoints.forEach((v)=>{
+    
+      if(v.isPopupOpen()){
+      found = true
+      currentPopupLat = v._latlng.lat
+      currentPopupLng = v._latlng.lng
+    }
+  })
+
+})
+
 // When map zooms or pans, we get the bounding box of viewport after zoom/pan, clear existing points then fetch and display new points
 map.addEventListener('moveend', ()=>{
   var boundingBox = calculateBBox()
   clearPoints();
   fetchPoints(boundingBox)
+
 })

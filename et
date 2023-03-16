@@ -1,0 +1,15 @@
+[33m659a9ee[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m testing solution
+[33m31df6d7[m[33m ([m[1;31morigin/main[m[33m)[m check SubmitCoords folder
+[33m56b83c6[m improved performance
+[33md9410c5[m added comments
+[33m24c8c29[m now fetching data from db
+[33m891307b[m placed markers and popups correctly
+[33m0d3820c[m custom markers and marker colors
+[33m0ca0bb9[m corrected CRS and refactored scripts
+[33m9e37a76[m zoomed to tiles
+[33m5bf43d0[m loaded wfs
+[33m35b663a[m added opacity slider
+[33m00dad53[m awaiting point overlay
+[33m606c00b[m published geoserver wms
+[33m13a8c7f[m layout done
+[33m78c65b4[m first commit
