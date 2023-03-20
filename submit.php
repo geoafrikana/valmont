@@ -15,9 +15,20 @@
     <link rel="stylesheet" href="submit.css">
 </head>
 <body>
-    <div id="map">
+    <div id="map"></div>
+<div class='bottom'>
+
+    <form action= "form.php" id='form' method='POST'>
+        <label for="lat">latitude</label>
+        <input id='lat' name='lat' type="text">
+        <br>
         
-    </div>
+        <label for="lon">Longitude</label>
+        <input id='lon' name='lon' type="text">
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
     <script src="submit.js" defer></script>
     
 </body>
