@@ -1,4 +1,5 @@
-var map = L.map('map').setView([51.505, -0.09], 13);
+var map = L.map('map').setView([46.23, 2.41], 6);
+document.getElementById('category').value = "0";
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -16,14 +17,14 @@ map.addEventListener('click', (e)=>{
     lonField.value= coords.lng
 })
 
-// form = document.getElementById('form')
+var type = document.getElementById('type')
 
-// form.addEventListener('submit', (e)=>{
-// e.preventDefault()
-// const formData = new FormData();
-// formData.append('coords', [latField.value, lonField.value])
-
-// const request = new XMLHttpRequest();
-// request.open("POST", "form.php");
-// request.send(formData);
-// })
+type.addEventListener('change', ()=>{
+    if(type.value == 2){
+        document.getElementById('cat-div').style.display = 'block'
+    }
+    else{
+        document.getElementById('cat-div').style.display = 'none'
+        document.getElementById('category').value = "0"
+    }
+})

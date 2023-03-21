@@ -2,22 +2,66 @@
     box-sizing: border-box;
 }
 
-body{
+.container{
     margin:0;
-    padding: 0;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px
 }
 
 #map{
     height: 60vh;
-    width: 100vw;
+    width: 60%;
     background-color: rgb(207, 207, 207);
 }
 
 .bottom{
-    margin-top: 50px;
-padding:10px;
+
+width: 30%
 }
 
-.bottom input{
-    margin-top:10px;
+
+input, select{
+    margin-bottom: 5px;
+    margin-top: 0;
 }
+
+button{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+        margin:0;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+    }
+
+    #map{
+        width:100%
+    }
+    .bottom{
+        width: 100%;
+        margin-top: 10px
+    }
+    input, select, button{
+        width: 100%;
+        margin-bottom: 10px
+    }
+
+    input[type='radio']{
+        width: auto
+    }
+    button{
+        background-color: rgb(84, 114, 197);
+        padding: 5px;
+        color: white;
+        border: 0.5px solid blue;
+        border-radius: 5px;
+    }
+  }
