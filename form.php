@@ -12,49 +12,86 @@ $dbh = new PDO($dsn, $user, $pass);
 
 // Set up a parameterized SQL query that uses PostGIS functions
 
-    $title = $_POST['title'];
-    $subtitle = $_POST['subtitle'];
-    $description = $_POST['description'];
-    $type = $_POST['type'];
-    $year = $_POST['year'];
-    $area = $_POST['area'];
+    $title = $_POST["title"];
+    $subtitle = $_POST["subtitle"];
+    $description = $_POST["description"];
+    $type = intval($_POST['type']);
+    
+
+
+    $year = intval($_POST['year']);
+    $area = intval($_POST['area']);
+    $lat = floatval($_POST['lat']);
+    $lon = floatval($_POST['lon']);
 
     if($_POST['status'] =='archived'){
-        $status = true;
-    }
-    elseif ($_POST['status'] == 'visible'){
-        $status = false;
-    }
+      $status = 't';
+  }
+  elseif ($_POST['status'] == 'visible'){
+      $status = 'f';
+  }
 
-    $lat = $_POST['lat'];
-    $lon = $_POST['lon'];
+   
+    try {
+        $conn = new PDO("pgsql:host=$host;dbname=$db", $user, $pass);
 
+        // set the PDO error mode to exception
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        
 
-    
-    $sql = "INSERT INTO main_val(title, subtitle, 
-    description, type_id, year, area_id,
-     status, geom)
-     VALUES ($title, $subtitle, $description, $type,
-     $year, $area, $status,
-     ST_TRANSFORM(ST_SETSRID(ST_POINT($lon, $lat), 4326), 3857))";
+        $sql = "INSERT INTO valmont.main_val(title, subtitle, description, type_id, year, area_id, status, geom) 
+        VALUES ('" .$title. "' ,'" .$subtitle. "', '" .$description. "',"
+         .$type. "," .$year."," .$area. ",'" .$status. "', ST_TRANSFORM(ST_SetSRID(ST_POINT(".$lon."," .$lat."), 4326), 3857))";
 
     if(isset($_POST['category'])){
-        $category = $_POST['category'];
+        $category = intval($_POST['category']);
 
-        $sql = "INSERT INTO main_val(title, subtitle, 
-        description, type_id, category_id, year, area_id,
-         status, geom)  VALUES ($title, $subtitle, $description, $type,
-         $category, $year, $area, $status, ST_TRANSFORM(ST_SETSRID(ST_POINT($lon, $lat), 4326), 3857))";
-   
-    }
+    $sql = "INSERT INTO valmont.main_val(title, subtitle, description, type_id, category_id, year, area_id, status, geom) 
+    VALUES ('" .$title. "' ,'" .$subtitle. "', '" .$description. "',"
+     .$type. "," .$category. "," .$year."," .$area. ",'" .$status. "', ST_TRANSFORM(ST_SetSRID(ST_POINT(".$lon."," .$lat."), 4326), 3857))";
+    
+  }
 
     print_r($sql);
-    
-    // // // Prepare the query
-    $stmt = $dbh->prepare($sql);
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
 
-    // // // Execute the query
-    $stmt->execute();
+    $conn->exec($sql);
+
+    echo "Data Inserted";
+
+      } catch(PDOException $e) {
+        echo "Connection failed: " . $e->getMessage();
+      }
+    
+
+      $conn = null;
+    // $sql = "INSERT INTO main_val(title, subtitle, 
+    // description, type_id, year, area_id,
+    //  status, geom)
+    //  VALUES ($title, $subtitle, $description, $type,
+    //  $year, $area, $status,
+    //  ST_TRANSFORM(ST_SETSRID(ST_POINT($lon, $lat), 4326), 3857))";
+
+    // if(isset($_POST['category'])){
+    //     $category = $_POST['category'];
+
+    //     $sql = "INSERT INTO main_val(title, subtitle, 
+    //     description, type_id, category_id, year, area_id,
+    //      status, geom)  VALUES ($title, $subtitle, $description, $type,
+    //      $category, $year, $area, $status, ST_TRANSFORM(ST_SETSRID(ST_POINT($lon, $lat), 4326), 3857))";
+   
+    // }
+
+    // print_r($sql);
+    
+    // // // // Prepare the query
+    // $stmt = $dbh->prepare($sql);
+
+    // // // // Execute the query
+    // $stmt->execute();
     
     ?>
 
