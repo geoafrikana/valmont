@@ -1,6 +1,7 @@
+
 var map = L.map('map').setView([46.23, 2.41], 6);
 document.getElementById('category').value = "0";
-
+var currentMarker = undefined
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'})
@@ -15,6 +16,17 @@ map.addEventListener('click', (e)=>{
     const coords = e.latlng;
     latField.value = coords.lat
     lonField.value= coords.lng
+    if(currentMarker){
+        currentMarker.remove();
+    }
+    currentMarker = L.marker(
+        [coords.lat, coords.lng], {
+            draggable:true})
+    .addTo(map);
+    currentMarker.addEventListener('dragend',()=>{
+    latField.value = currentMarker._latlng.lat
+    lonField.value= currentMarker._latlng.lng
+    })
 })
 
 var type = document.getElementById('type')

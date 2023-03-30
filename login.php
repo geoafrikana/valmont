@@ -6,6 +6,7 @@
     <?php include 'includes/nav.php';    ?>
 
     <?php
+
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     if(isset($_POST['submit'])){
         $email = $_POST['email'];
@@ -28,10 +29,21 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
             $stmt->execute([$email, $u_password]);
 
-            $user_id = $stmt->fetch();
+            $user = $stmt->fetch();
 
-            print_r($user_id);
-            // echo "<h1>$user_id</h1>";
+            if(! $user){
+                echo "user does not exist";
+            }
+            else{
+                $_SESSION['user_id'] = $user['id'];
+                $_SESSION['user_email'] = $user['email'];
+                $_SESSION['user_role'] = $user['user_role'];
+
+                
+            echo "Login successful. You will now be redirected to the homepage";
+            echo "<script>setTimeout(\"location.href = 'index.php';\",2000);</script>";
+          
+            }
         }
         catch(PDOException $e) {
             echo "Error: " . $e->getMessage();

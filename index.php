@@ -1,7 +1,7 @@
 
 <?php include 'includes/home_header.php' ?>
 <body>
-    <?php include 'includes/nav.php';    ?>
+   
 
 
 <div class="body-container">
@@ -74,7 +74,11 @@
 
     </div>
     <button id="toggle-button">&lt</button>
+    <div>
+    <?php include 'includes/nav.php';    ?>
+
     <div id="map"> </div>
+    </div>
 
 <div>
 

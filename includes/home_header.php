@@ -1,4 +1,6 @@
+
 <?php include 'header.php' ?>
+
 
 <title>Valmont - Home</title>
 <?php include 'leaflet_links.php' ?>

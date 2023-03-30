@@ -33,9 +33,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             . $role. ", crypt('". $user_password ."', gen_salt('bf')));" ;
             // use exec() because no results are returned
             $conn->exec($sql);
+
             echo "Account created. You will now be redirected to the login page";
             echo "<script>setTimeout(\"location.href = 'login.php';\",2000);</script>";
-          } catch(PDOException $e) {
+          
+        } catch(PDOException $e) {
             echo $sql . "<br>" . $e->getMessage();
           }
           
