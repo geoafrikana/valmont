@@ -1,19 +1,19 @@
 const sidebar = document.getElementById('sidebar');
-const toggleButton = document.getElementById('toggle-button');
+const sideToggleButton = document.getElementById('toggle-button');
 
-toggleButton.addEventListener('click', ()=>{
+sideToggleButton.addEventListener('click', ()=>{
     sidebar.classList.toggle('sidebar-collapse')
     // toggleButton.classList.add('toggle-button-collapse')
 })
 
 sidebar.addEventListener('transitionstart', ()=>{
     if(sidebar.classList.contains('sidebar-collapse')){
-        toggleButton.classList.add('toggle-button-collapse')
-        toggleButton.innerText = '>'
+        sideToggleButton.classList.add('toggle-button-collapse')
+        sideToggleButton.innerText = '>'
     }
     else{
-        toggleButton.classList.remove('toggle-button-collapse')
-        toggleButton.innerText = '<'
+        sideToggleButton.classList.remove('toggle-button-collapse')
+        sideToggleButton.innerText = '<'
     }
 })
 

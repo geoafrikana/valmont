@@ -28,7 +28,7 @@ input, select{
     margin-top: 0;
 }
 
-button{
+.submit-btn{
     margin-top: 10px;
 }
 
@@ -49,7 +49,7 @@ button{
         width: 100%;
         margin-top: 10px
     }
-    input, select, button{
+    input, select, .submit-btn{
         width: 100%;
         margin-bottom: 10px
     }
@@ -57,7 +57,7 @@ button{
     input[type='radio']{
         width: auto
     }
-    button{
+    .submit-btn{
         background-color: rgb(84, 114, 197);
         padding: 5px;
         color: white;
