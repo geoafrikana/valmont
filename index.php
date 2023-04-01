@@ -5,6 +5,9 @@
 
 
 <div class="body-container">
+<?php include 'includes/nav.php';    ?>
+
+<main>
     <div id="sidebar">
         <img class="sidebar-logo" src="./assets/img/logo.svg" alt="val-mont logo">
 
@@ -75,11 +78,12 @@
     </div>
     <button id="toggle-button">&lt</button>
     <div>
-    <?php include 'includes/nav.php';    ?>
+    
 
     <div id="map"> </div>
     </div>
 
 <div>
+</main>
 
 <?php include 'includes/footer.php' ?>
