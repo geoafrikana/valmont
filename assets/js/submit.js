@@ -1,12 +1,10 @@
 
-var map = L.map('map').setView([46.23, 2.41], 6);
+var map = L.map('map').setView([45.66, -75.73], 12);
 document.getElementById('category').value = "0";
 var currentMarker = undefined
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'})
     .addTo(map);
-
 
 var latField = document.getElementById('lat')
 var lonField = document.getElementById('lon')
