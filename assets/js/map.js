@@ -8,7 +8,7 @@ var OpenStreetMap  = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png
 
 
 // End point for fetching DEM data
-const WmsUrl = 'https://val.aponiawebsolutions.ca/geoserver/wms'
+const WmsUrl = 'http://ec2-52-90-102-152.compute-1.amazonaws.com/geoserver/valmont/wms'
 
 // These URL Parameters are general to all three DEM layers
 const WmsDefaultParams = {
@@ -21,22 +21,22 @@ const WmsDefaultParams = {
 
 var topographic = L.tileLayer.wms(WmsUrl, {
     layers: 'color_3857',
-    styles: 'color_style',
+    // styles: 'color_style',
     ...WmsDefaultParams
     
 }).addTo(map);
 
 var DEMBlackAndWhite = L.tileLayer.wms(WmsUrl, {
     layers: 'dem_3857',
-    styles: 'raster',
+    // styles: 'raster',
     ...WmsDefaultParams
 })
 
-var DEMColor = L.tileLayer.wms(WmsUrl, {
-    layers: 'dem_3857',
-    styles: 'dem_style',
-    ...WmsDefaultParams
-})
+// var DEMColor = L.tileLayer.wms(WmsUrl, {
+//     layers: 'dem_3857',
+//     styles: 'dem_style',
+//     ...WmsDefaultParams
+// })
 
 
 // Only one base layer can be visible at once
@@ -47,7 +47,7 @@ var baseLayers = {
 
 // Multiple overlay layers can be visible simultaneously
 var overlayLayers = {
-    'DEM Colored': DEMColor,
+    // 'DEM Colored': DEMColor,
     'DEM Black and White': DEMBlackAndWhite,
     'Topographic': topographic
 }

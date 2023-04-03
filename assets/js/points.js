@@ -3,7 +3,7 @@ var found = false;
 var currentPopupLat = null;
 var currentPopupLng = null;
 const getColor = (category) => {
-  category = category.toLowerCase();
+  category ? category.toLowerCase(): '';
 
   // These colors are in defined in index.css
   var colorMap = {
@@ -51,7 +51,7 @@ const displayPopup = (feature) => {
   const popupContent = `<h3 style="font-size:0.8rem; padding: 3px">${heading}</h3>
     <hr>
     <h3 style="font-size:0.7rem; margin-top:20px">${title}</h3>
-    <p style="font-family:arial; text-transform:capitalize"><i class="fa-xl fa-${getColor(degreeOfContamination)} fa1 fa-solid fa-circle-check"></i><span>${degreeOfContamination}</span></p>
+    <p style="font-family:arial; text-transform:capitalize"><i class="fa-xl fa-${getColor(degreeOfContamination)} fa1 fa-solid fa-circle-check"></i><span>${degreeOfContamination ? degreeOfContamination : 'Not Applicable'}</span></p>
     
     <p><a href="${downloadPath}">File name(2.3 MB).pdf</a></p>`
 
@@ -102,15 +102,15 @@ const calculateBBox = () => {
 const fetchPoints = (boundingBox) => {
 
   // End point for fetching all WFS data from geoserver
-  var owsRootUrl = 'https://val.aponiawebsolutions.ca/geoserver/ows';
+  var owsRootUrl = 'http://ec2-52-90-102-152.compute-1.amazonaws.com/geoserver/valmont/ows';
 
   // fetching data begins
   // Additional URL parameters for specifying the data to fetch, which format it should be and which 
   var params = {
     service: 'WFS',
-    version: '2.0',
+    version: '1.0.0',
     request: 'GetFeature',
-    typeName: 'valmont:valmont',
+    typeName: 'valmont:main_val',
     outputFormat: 'application/json',
     SrsName: 'EPSG:4326', // We need data to be returned as degree lat/lon not UTM coordinates
     bbox: boundingBox + ',EPSG:4326' // Native CRS is EPSG:3857 but leaflet supplies boundingBox in EPSG:4326
